@@ -43,3 +43,8 @@ It contains 170 objectives within the domains.
 Integrates with the STAR program.
 
 ## Digital Mellennium Copyright Act (DMCA) ##
+An occasionally controversial act intended to align the US copyright act with the requirements of treaties and the World Intellectual Property Organization.  
+
+## Data Loss Prevention ##  
+DLP is ensured by a set of tools, procedures, and policies to ensure sensitive, proprietary, and PII is not lost or misused.  It helps to provide compliance with numerous laws and compliance requirements by enforcing preventative and detective measures in the organization.
+
