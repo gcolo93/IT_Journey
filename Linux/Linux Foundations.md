@@ -1,11 +1,11 @@
 ## 1.1 Linux Evolution and Popular Operating Systems
 
 ## Topics:
-Open Source Philosophy 
-The birth of Linux 
-Distributions 
-Embedded Systems 
-Comparison with other popular Operating Systems 
+* Open Source Philosophy 
+* The birth of Linux 
+* Distributions 
+* Embedded Systems 
+* Comparison with other popular Operating Systems 
 
 ### Open Source Philosophy
 Source refers to the source code or the actual text code that is compiled to make a program. 
@@ -38,66 +38,29 @@ Linux is free so it makes sense to use a free OS when building a dedicated serve
 
 
 ## Comparison with other OSs
-### MAC OSX: 
+### MAC OSX:
 This uses a version of BSD Unix, not dissimilar to Linux. Using the command line on OSX is going to be very similar to Linux 
 ### Windows: 
 Windows has made a huge success out of the Graphical Interface but are starting to move back towards command line with PowerShell
 ### UNIX: 
 Linux was born out of Unix but with the requisite to be free and open source
 
+## 1.2 Major Open Source Applications
 
+## Topics:
+Desktop Applications 
+Server Applications 
+Mobile Applications 
+Development Languages 
+Package Management Tools and Repositories 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1.2 Major Open Source Applications
-
-Topics:
-Desktop Applications
-Server Applications
-Mobile Applications
-Development Languages
-Package Management Tools and Repositories
-
-Desktop Applications
-LibreOffice: Office suite
-Firefox: Browser
-Thunderbird: Email client
-Gimp: Photo editing and graphics
-Audacity: Manage and edit sound files
-These applications are cross platform, they can run on Windows, Mac, and Linux
+### Desktop Applications
+LibreOffice: Office suite 
+Firefox: Browser 
+Thunderbird: Email client 
+Gimp: Photo editing and graphics 
+Audacity: Manage and edit sound files 
+These applications are cross platform, they can run on Windows, Mac, and Linux 
 
 Server Applications (Services)
 Apache: Web server
