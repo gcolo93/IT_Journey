@@ -9,6 +9,7 @@
 
 ### Open Source Philosophy
 Source refers to the source code or the actual text code that is compiled to make a program.  
+  
 Having access to the code allows you to understand how the program works and perhaps to contribute additions to the program. 
 This means there are many 100s and perhaps 1000s of contributors to the code. 
 
@@ -88,11 +89,11 @@ These applications are cross platform, they can run on Windows, Mac, and Linux
 * Of course, you will not need your credit card for Linux repos
 
 ### Accessing the Repo
-* Different distributions will use different tools
-** Red Hat, CentOS: Use YUM
-** SUSE uses ZYPPER
-** Ubuntu uses APT-GET
-* In essence, they all do the same job in locating software from defined repositories and installing the software along with any dependency packages
+Different distributions will use different tools
+* Red Hat, CentOS: Use YUM
+* SUSE uses ZYPPER
+* Ubuntu uses APT-GET
+In essence, they all do the same job in locating software from defined repositories and installing the software along with any dependency packages
 
 
 
