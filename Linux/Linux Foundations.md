@@ -1,46 +1,49 @@
 ## 1.1 Linux Evolution and Popular Operating Systems
 
 ## Topics:
-Open Source Philosophy
-The birth of Linux
-Distributions
-Embedded Systems
-Comparison with other popular Operating Systems
+Open Source Philosophy 
+The birth of Linux 
+Distributions 
+Embedded Systems 
+Comparison with other popular Operating Systems 
 
 ### Open Source Philosophy
-Source refers to the source code or the actual text code that is compiled to make a program.
+Source refers to the source code or the actual text code that is compiled to make a program. 
 Having access to the code allows you to understand how the program works and perhaps to contribute additions to the program.
 This means there are many 100s and perhaps 1000s of contributors to the code.
 
 ### The Birth of Linux
-The first Linux kernel, the core of the Operating System, was released in 1991 by a student from Helsinki University, Linux Torvalds
-In 1992 was re-released under the GNU license that opened the kernel to the wealth of GNU (Not Unix programs and utilities)
+The first Linux kernel, the core of the Operating System, was released in 1991 by a student from Helsinki University, Linux Torvalds. 
+In 1992 was re-released under the GNU license that opened the kernel to the wealth of GNU (Not Unix programs and utilities). 
 
-Linux Distributions
-A distribution is the kernel packages with installers and additional software. This makes the kernel usable to humans:
-Red Hat Enterprise Linux
-SUSE Enterprise Linux
-Ubuntu
-Debian
-openSUSE
-Fedora
-Linux Mint
-The website distrowatch.com keeps track of downloads.
+### Linux Distributions
+A distribution is the kernel packages with installers and additional software. This makes the kernel usable to humans: 
+Red Hat Enterprise Linux 
+SUSE Enterprise Linux 
+Ubuntu 
+Debian 
+openSUSE 
+Fedora 
+Linux Mint 
+The website distrowatch.com keeps track of downloads. 
 
-Embedded Systems
-You are also going to find Linux in many devices
-TiVo boxes
-Network Storage Servers
-Print Servers
-Android Phones
-Linux is free so it makes sense to use a free OS when building a dedicated server
+### Embedded Systems
+You are also going to find Linux in many devices: 
+TiVo boxes 
+Network Storage Servers 
+Print Servers 
+Android Phones 
+Linux is free so it makes sense to use a free OS when building a dedicated server 
 
 
 
-Comparison with other OSs
-MAC OSX: This uses a version of BSD Unix, not dissimilar to Linux. Using the command line on OSX is going to be very similar to Linux
-Windows: Windows has made a huge success out of the Graphical Interface but are starting to move back towards command line with PowerShell
-UNIX: Linux was born out of Unix but with the requisite to be free and open source
+## Comparison with other OSs
+### MAC OSX: 
+This uses a version of BSD Unix, not dissimilar to Linux. Using the command line on OSX is going to be very similar to Linux 
+### Windows: 
+Windows has made a huge success out of the Graphical Interface but are starting to move back towards command line with PowerShell
+### UNIX: 
+Linux was born out of Unix but with the requisite to be free and open source
 
 
 
