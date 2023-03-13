@@ -10,4 +10,4 @@ In the terminal window, enter the command(s):
 * **ls /etc/*release**: list the names of the matching files
 * **cat /etc/system-release**: shows the name and version of the system
 
-## Get Open Source Licensing Information **
+## Get Open Source Licensing Information ##
