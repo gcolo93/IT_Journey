@@ -8,93 +8,91 @@
 * Comparison with other popular Operating Systems 
 
 ### Open Source Philosophy
-Source refers to the source code or the actual text code that is compiled to make a program. 
-Having access to the code allows you to understand how the program works and perhaps to contribute additions to the program.
-This means there are many 100s and perhaps 1000s of contributors to the code.
+Source refers to the source code or the actual text code that is compiled to make a program.  
+Having access to the code allows you to understand how the program works and perhaps to contribute additions to the program. 
+This means there are many 100s and perhaps 1000s of contributors to the code. 
 
 ### The Birth of Linux
-The first Linux kernel, the core of the Operating System, was released in 1991 by a student from Helsinki University, Linux Torvalds. 
-In 1992 was re-released under the GNU license that opened the kernel to the wealth of GNU (Not Unix programs and utilities). 
+The first Linux kernel, the core of the Operating System, was released in 1991 by a student from Helsinki University, Linux Torvalds.  
+In 1992 was re-released under the GNU license that opened the kernel to the wealth of GNU (Not Unix programs and utilities).  
 
 ### Linux Distributions
 A distribution is the kernel packages with installers and additional software. This makes the kernel usable to humans: 
-Red Hat Enterprise Linux 
-SUSE Enterprise Linux 
-Ubuntu 
-Debian 
-openSUSE 
-Fedora 
-Linux Mint 
+* Red Hat Enterprise Linux 
+* SUSE Enterprise Linux 
+* Ubuntu 
+* Debian 
+* openSUSE 
+* Fedora 
+* Linux Mint 
 The website distrowatch.com keeps track of downloads. 
 
 ### Embedded Systems
-You are also going to find Linux in many devices: 
-TiVo boxes 
-Network Storage Servers 
-Print Servers 
-Android Phones 
+You are also going to find Linux in many devices:  
+* TiVo boxes 
+* Network Storage Servers 
+* Print Servers 
+* Android Phones 
 Linux is free so it makes sense to use a free OS when building a dedicated server 
-
-
 
 ## Comparison with other OSs
 ### MAC OSX:
-This uses a version of BSD Unix, not dissimilar to Linux. Using the command line on OSX is going to be very similar to Linux 
+* This uses a version of BSD Unix, not dissimilar to Linux. Using the command line on OSX is going to be very similar to Linux 
 ### Windows: 
-Windows has made a huge success out of the Graphical Interface but are starting to move back towards command line with PowerShell
+* Windows has made a huge success out of the Graphical Interface but are starting to move back towards command line with PowerShell
 ### UNIX: 
-Linux was born out of Unix but with the requisite to be free and open source
+* Linux was born out of Unix but with the requisite to be free and open source
 
 ## 1.2 Major Open Source Applications
 
 ## Topics:
-Desktop Applications 
-Server Applications 
-Mobile Applications 
-Development Languages 
-Package Management Tools and Repositories 
+* Desktop Applications 
+* Server Applications 
+* Mobile Applications 
+* Development Languages 
+* Package Management Tools and Repositories 
 
 ### Desktop Applications
-LibreOffice: Office suite 
-Firefox: Browser 
-Thunderbird: Email client 
-Gimp: Photo editing and graphics 
-Audacity: Manage and edit sound files 
+* LibreOffice: Office suite 
+* Firefox: Browser 
+* Thunderbird: Email client 
+* Gimp: Photo editing and graphics 
+* Audacity: Manage and edit sound files 
 These applications are cross platform, they can run on Windows, Mac, and Linux 
 
-Server Applications (Services)
-Apache: Web server
-MySQL, MariaDB, PostgreSQL Database Servers
-Squid: Web proxy
-NFS: Linux and Unix File Server
-SAMBA: Windows, File, Print Server and Domain Server
-openLDAP: Directory Server
-DNS / DHCP: Network Infrastructure services
+### Server Applications (Services)
+* Apache: Web server
+* MySQL, MariaDB, PostgreSQL Database Servers
+* Squid: Web proxy
+* NFS: Linux and Unix File Server
+* SAMBA: Windows, File, Print Server and Domain Server
+* openLDAP: Directory Server
+* DNS / DHCP: Network Infrastructure services
 
-Mobile Applications
-Linux is Linux is Linux, it does not differ between server, desktop and mobile Linux
-Windows CE, Windows 8 mobile are different OSs to the Windows Desktop and Server, as is Server different from Desktop
-Many Linux server and desktop apps then will work on mobile Linux, Android.
-Some mobile Linux apps will be written from the ground up for mobile devices
+### Mobile Applications
+* Linux is Linux is Linux, it does not differ between server, desktop and mobile Linux
+* Windows CE, Windows 8 mobile are different OSs to the Windows Desktop and Server, as is Server different from Desktop
+* Many Linux server and desktop apps then will work on mobile Linux, Android.
+* Some mobile Linux apps will be written from the ground up for mobile devices
 
-Development Languages
-Simple “scripts” can be made to automate tasks using shell scripting (.sh)
-PHP is often used to provide access to Databases from Apache (LAMP: Linux Apache MySQL PHP)(.php)
-Perl: Perl scripting is effective and cross platform (.pl)
-Python: Due to its power, simplicity, and complete object model, Python has become the scripting language of choice for many large organizations (.py)
+### Development Languages
+* Simple “scripts” can be made to automate tasks using shell scripting (.sh)
+* PHP is often used to provide access to Databases from Apache (LAMP: Linux Apache MySQL PHP)(.php)
+* Perl: Perl scripting is effective and cross platform (.pl)
+* Python: Due to its power, simplicity, and complete object model, Python has become the scripting language of choice for many large organizations (.py)
 
-Package Management Tools and Repositories
-The Apple Store; The Microsoft Store, we might think these innovative and useful
-They are not new and Linux has used Software Repositories for years
-A software repository, or repo, is an online location where software can be installed from
-Of course, you will not need your credit card for Linux repos
+### Package Management Tools and Repositories
+* The Apple Store; The Microsoft Store, we might think these innovative and useful
+* They are not new and Linux has used Software Repositories for years
+* A software repository, or repo, is an online location where software can be installed from
+* Of course, you will not need your credit card for Linux repos
 
-Accessing the Repo
-Different distributions will use different tools
-Red Hat, CentOS: Use YUM
-SUSE uses ZYPPER
-Ubuntu uses APT-GET
-In essence, they all do the same job in locating software from defined repositories and installing the software along with any dependency packages
+### Accessing the Repo
+* Different distributions will use different tools
+** Red Hat, CentOS: Use YUM
+** SUSE uses ZYPPER
+** Ubuntu uses APT-GET
+* In essence, they all do the same job in locating software from defined repositories and installing the software along with any dependency packages
 
 
 
