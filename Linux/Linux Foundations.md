@@ -1,18 +1,18 @@
-## 1.1 Linux Evolution and Popular Operating Systems ##
+## 1.1 Linux Evolution and Popular Operating Systems
 
-## Topics: ##
+## Topics:
 Open Source Philosophy
 The birth of Linux
 Distributions
 Embedded Systems
 Comparison with other popular Operating Systems
 
-### Open Source Philosophy ###
+### Open Source Philosophy
 Source refers to the source code or the actual text code that is compiled to make a program.
 Having access to the code allows you to understand how the program works and perhaps to contribute additions to the program.
 This means there are many 100s and perhaps 1000s of contributors to the code.
 
-### The Birth of Linux ###
+### The Birth of Linux
 The first Linux kernel, the core of the Operating System, was released in 1991 by a student from Helsinki University, Linux Torvalds
 In 1992 was re-released under the GNU license that opened the kernel to the wealth of GNU (Not Unix programs and utilities)
 
