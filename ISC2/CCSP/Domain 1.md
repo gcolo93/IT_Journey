@@ -109,3 +109,23 @@ Clouds are **multitenant.** Multiple consumers share the same resources but are 
 The key difference between cloud and traditional computing is the metastructure. Cloud metastructure includes the management plane components, which are network-enabled and remotely accessible. In the cloud, every layer tends to be doubled up on each layer.
 
 ## 1.2 Cloud Security Scope, Responsibilities, and Models ##
+
+Cloud computing is a sharedtechnology model where different organizations are frequently responsible for implementing and managing different parts of the stack. Frequently referred to as the **shared responsibility model.**
+
+At a high level, security responsibility maps to the degree of control any given actor has over the architecture stack:
+
+* *Software as a Service:* The cloud provider is repsonsible for nearly all security, since the cloud user can only access and manage their use of the application, and can't alter how the application works.
+* *Platform as a Service:* The cloud provider is responsible for the security of the platform, while the consumer is responsible for everything they implement on the platform, including how they configure any offered security features. The responsibilities are thus more evenly split.
+* *Infrastructure as a Service:* Just like PaaS, the provider is responsible for foundational security, while the cloud user is responsible for everything they build on the infrastructure. Unlike PaaS, this places far more responsibility on the client.
+
+*These roles are further complicated when using cloud brokers or other intermediaries and partners. The most important security consideration is knowing exactly who is responsible for what in any given cloud project.*
+
+The shared responsibility model directly correlates to two recommendations:
+
+* **Cloud providers** should clearly document their internal security controls and customer security features so the cloud user can make an informed decision. Providers should also properly design and implement those controls.
+* **Cloud users** should, for any given cloud project, build a responsibilities matrix to document who is implementing which controls and how. This should also align with any necessary compliance standards.
+
+The Cloud Security Alliance (CSA) provides two tools to help meet these:
+
+* 
+* 
