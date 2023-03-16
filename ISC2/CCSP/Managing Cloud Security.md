@@ -3,34 +3,37 @@
 ### 1.1 Overview
 
 **NIST Cloud Computing Definition:** A model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort or service provider interaction.
-  * **NIST 500-292:** Uses the term “cloud actor” and adds roles for cloud brokers, carriers, and auditors.
-  * **NIST 800-145:** Brings coherence and consensus around a common language to focus on use cases rather than semantic nuances.
-  * **5 Essential Characteristics**
-    * **Broad Network Access:** All resources are available over a network, without any need for direct physical access; the network is not necessarily part of the service.
-    * **Rapid Elasticity:** Allows consumers to expand or contract the resources they use from the pool, often completely automatically. This allows consumers to closely match resource consumption with demand.
-    * **Measured Service:** 
-    * **On-Demand Self-Service:** Consumers provision resources from the pool themselves, without having to talk to a human administrator.
-    * **Resource Pooling:** Provider collects resources into a pool, then allocates portions to different consumers (typically based on policies).
-* **3 Service Models (SPI Tiers)**
-Software as a Service (SaaS): Full application that’s managed and hosted by the provider. Consumers access it with a web browser, mobile app, or a lightweight client app.
-Platform as a Service (PaaS): Abstracts and provides development or application platforms, such as databases, application platforms, file storage and collaboration, or proprietary application processing. With PaaS, the cloud provider manages the underlying servers, networks, or other infrastructure.
-Infrastructure as a Service (IaaS): Offers access to a resource pool of fundamental computing infrastructure, such as compute, network, or storage.
-4 Cloud Deployment Models
-Public: The cloud infrastructure is made available to the general public or a large industry group and is owned by an organization selling cloud services.
-Infrastructure managed by: Third-Party Provider
-Infrastructure owned by: Third-Party Provider
-Infrastructure located: Off-Premises
-Accessible and Consumed By: Untrusted
-Private: The cloud infrastructure is operated solely for a single organization. It may be managed by the organization or by a third party and may be located on-premises or off-premises.
-Infrastructure managed by: Organization/Third-Party Provider
-Infrastructure owned by: Organization/Third-Party Provider
-Infrastructure located: On-Premises/Off-Premises
-Accessible and Consumed By: Trusted
-Hybrid: The cloud infrastructure is a composition of two or more clouds that remain unique entities but are bound together by standardized or proprietary technology that enable data and application portability. Hybrid is also commonly used to describe a non-cloud data center bridged directly to a cloud provider.
-Infrastructure managed by: Both Organization and Third-Party Provider
-Infrastructure owned by: Both Organization and Third-Party Provider
-Infrastructure located: Both On-Premises andOff-Premises
-Accessible and Consumed By: Trusted and Untrusted
+* **NIST 500-292:** Uses the term “cloud actor” and adds roles for cloud brokers, carriers, and auditors.
+* **NIST 800-145:** Brings coherence and consensus around a common language to focus on use cases rather than semantic nuances.
+
+**5 Essential Characteristics**
+* **Broad Network Access:** All resources are available over a network, without any need for direct physical access; the network is not necessarily part of the service.
+* **Rapid Elasticity:** Allows consumers to expand or contract the resources they use from the pool, often completely automatically. This allows consumers to closely match resource consumption with demand.
+* **Measured Service:** 
+* **On-Demand Self-Service:** Consumers provision resources from the pool themselves, without having to talk to a human administrator.
+* **Resource Pooling:** Provider collects resources into a pool, then allocates portions to different consumers (typically based on policies).
+
+**3 Service Models (SPI Tiers)**
+* **Software as a Service (SaaS):** Full application that’s managed and hosted by the provider. Consumers access it with a web browser, mobile app, or a lightweight client app.
+* **Platform as a Service (PaaS):** Abstracts and provides development or application platforms, such as databases, application platforms, file storage and collaboration, or proprietary application processing. With PaaS, the cloud provider manages the underlying servers, networks, or other infrastructure.
+* **Infrastructure as a Service (IaaS):** Offers access to a resource pool of fundamental computing infrastructure, such as compute, network, or storage.
+
+**4 Cloud Deployment Models**
+* **Public:** The cloud infrastructure is made available to the general public or a large industry group and is owned by an organization selling cloud services.
+  * **Infrastructure managed by:** Third-Party Provider
+  * **Infrastructure owned by:** Third-Party Provider
+  * **Infrastructure located:** Off-Premises
+  * **Accessible and Consumed By:** Untrusted
+* **Private:** The cloud infrastructure is operated solely for a single organization. It may be managed by the organization or by a third party and may be located on-premises or off-premises.
+  * **Infrastructure managed by:** Organization/Third-Party Provider
+  * **Infrastructure owned by:** Organization/Third-Party Provider
+  * **Infrastructure located:** On-Premises/Off-Premises
+  * **Accessible and Consumed By:** Trusted
+* **Hybrid:** The cloud infrastructure is a composition of two or more clouds that remain unique entities but are bound together by standardized or proprietary technology that enable data and application portability. Hybrid is also commonly used to describe a non-cloud data center bridged directly to a cloud provider.
+  * **Infrastructure managed by:** Both Organization and Third-Party Provider
+  * **Infrastructure owned by:** Both Organization and Third-Party Provider
+  * **Infrastructure located:** Both On-Premises and Off-Premises
+  * **Accessible and Consumed By:** Trusted and Untrusted
 Community: The cloud infrastructure is shared by several organizations and supports a specific community that has shared concerns. It may be managed by the organizations or by a third party and may be located on-premises or off-premises.
 Infrastructure managed by: Organization/Third-Party Provider
 Infrastructure owned by: Organization/Third-Party Provider
