@@ -1,14 +1,5 @@
 ﻿# AWS SysOps Associate Exam Notes
 
-
-
-
-#
-#
-#
-#
-#
-#
 #
 #
 #
