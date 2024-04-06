@@ -14,12 +14,6 @@ In this chapter, you will learn how to
 
 -   Apply the best practice methodology to resolve problems
 
-I am a "nerd" and I consider the term a compliment. Nerds are smart and like to work with technology---these are the good aspects of nerd-dom. On the other hand, many people think of the term nerd as an insult. Nerds are rarely portrayed in a positive manner in the media, and I think I know why. Nerds generally suffer from some pretty serious social weaknesses. These weaknesses are classics: bad clothing, shyness, and poor communication skills. If you've ever seen an episode of the TV show The Big Bang Theory, you know what I'm talking about.
-
-This chapter covers some basic life skills to enable you to enjoy your nerdiness and yet function out in the real world. You'll learn how to act as a professional and how to communicate effectively. After you're well on your way to the beginnings of social graces, we'll discuss some of the hazards (such as static electricity) you may run into in your job and the tools you can use to prevent problems. After all, nerds who cannot stay organized---or who break equipment or themselves---need to learn some tricks to keep everything organized and safe. The chapter finishes with a discussion about troubleshooting. You'll learn the CompTIA A+ troubleshooting methodology, an excellent tool that will serve you well in your studies and career as a tech.
-
-1102
-
 The Professional Tech
 
 A professional tech displays professionalism, which might seem a little trite if it weren't absolutely true. The tech presents a professional appearance and follows a proper ethical code. I call the latter the Traits of a Tech. Let's look at these two areas in more detail.
@@ -27,8 +21,6 @@ A professional tech displays professionalism, which might seem a little trite if
 Professional Appearance and Attire
 
 Americans live in a casual society. The problem with casual is that perhaps our society is becoming too casual. Customers often equate casual clothing with a casual attitude. You might think you're just fixing somebody's computer, but you're doing much more than that. You are saving precious family photos. You are keeping a small business in operation. This is serious stuff, and nobody wants an unclean, slovenly person doing these important jobs. Look at Figure 1-1. This is our resident illustrator (among other job descriptions), Ford Pierson, casually dressed to hang with his buddies.
-
-Figure 1-1  Casual Ford
 
 I have a question for you. If you ran a small business and your primary file server died, leaving 15 employees with nothing to do, how would you feel about Ford as a tech coming into your office looking like this? I hope your answer would be "not too confident." Every company has some form of dress code for techs. Figure 1-2 shows Ford dressed in fairly typical business casual attire, with a company polo shirt, khaki pants, and dark shoes (trust me on that score). Please also note that both his shirt and his pants are wrinkle free. All techs either know how to iron or know the location of the nearest cleaners.
 
