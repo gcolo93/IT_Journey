@@ -1,5 +1,3 @@
-Chapter 1 Safety and Professionalism
-
 INTRODUCTION
 
 The field of computing has changed dramatically over the decades since the introduction of the IBM Personal Computer (PC) in 1981, and so has the job of the people who build, maintain, and troubleshoot computers. A PC tech for many years serviced IBM-compatible desktop systems running a Microsoft operating system (OS), such as DOS or, later, Windows. All a tech needed to service an early Windows machine was a Phillips-head screwdriver and knowledge of the hardware and OS.
@@ -353,53 +351,3 @@ Contact
 If you have any problems, any questions, or if you just want to argue about something, feel free to send an e-mail to the authors (total@totalsem.com).
 
 For any other information you might need, contact CompTIA directly at their Web site: https://www.comptia.org.
-
-Copy
-
-copy
-
-Highlight
-
-highlight
-
-Add Note
-
-note
-
-Get Link
-
-link
-
-table of contents
-
-search
-
-Settings
-
-queue
-
-close x
-
-Preparing for certification?
-
-Take Practice Test
-
-chevron right
-
-Skip to Content
-
-Topics
-
-Start Learning
-
-Featured
-
-Search 50,000+ courses, events, titles, and more
-
-Introduction
-
-Chapter 1 Safety and Professionalism
-
-Chapter 2 The Visible Computer
-
-42h 21m remaining
