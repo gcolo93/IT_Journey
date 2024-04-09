@@ -1,2008 +1,973 @@
+**Chapter 3: Getting to Know the Environment**
 
-3. Getting to Know the Environment
-03.01 Rearrange Windows in Visual Studio 2010 Using the Guide Diamond
-16h 35m remaining
-Chapter 3. Getting to Know the Environment
-“A mobile robot has to devote a tremendous amount of processing time simply to avoid obstacles in the environment. Human beings do, too, but they’re never aware of it—until the lights go out. Then they learn painfully just how much processing is really required.”
+*"A mobile robot has to devote a tremendous amount of processing time simply to avoid obstacles in the environment. Human beings do, too, but they’re never aware of it—until the lights go out. Then they learn painfully just how much processing is really required."*  
+— Michael Crichton, "Prey"
 
-— Michael Crichton “Prey”
-Too often we take our environment for granted—the little things that we see every day and, yet, fail to notice. This section is meant to awaken you to the possibilities in your Visual Studio environment.
+Too often, we take our environment for granted—the familiar sights we encounter every day that we may overlook. This section aims to awaken your awareness to the potential within your Visual Studio environment.
 
-Most notably, the purpose is to highlight how best to work with your window layouts, how to use the toolbox to your advantage, and how to work with commands properly, among other things. Take time to really explore the Visual Studio environment, and you can unlock the secrets to navigating that same environment successfully.
+The primary objective is to illuminate the best practices for managing your window layouts, leveraging the toolbox effectively, and mastering command usage, among other essential skills. By thoroughly exploring the Visual Studio environment, you can uncover the keys to navigating it with confidence and efficiency.
 
+**03.01 Rearrange Windows in Visual Studio 2010 Using the Guide Diamond**
 
+Docking and undocking windows in the IDE has always been an interesting task. In Visual Studio, we have a tool called the Guide Diamond that assists our efforts. 
 
+**Default Shortcut:** [no shortcut]
 
+**Visual Basic 6:** [no shortcut]
 
-3. Getting to Know the Environment
-03.01 Rearrange Windows in Visual Studio 2010 Using the Guide Diamond
-03.02 Dock a Floating Tool Window Back to Its Previous Location
-16h 35m remaining
-03.01 Rearrange Windows in Visual Studio 2010 Using the Guide Diamond
-DEFAULT
+**Visual C# 2005:** [no shortcut]
 
-[no shortcut]
+**Visual C++ 2:** Alt+F6 (dock)
 
-VISUAL BASIC 6
+**Visual C++ 6:** [no shortcut]
 
-[no shortcut]
+**Visual Studio 6:** [no shortcut]
 
-VISUAL C# 2005
+**Windows:** 
+- Float: Alt,W, F 
+- Dock: Alt,W, K 
+- Dock as Tabbed Document: Alt,W, T 
 
-[no shortcut]
+**Menu:** 
+- Float: Window | Float 
+- Dock: Window | Dock 
+- Dock as Tabbed Document: Window | Dock as Tabbed Document
 
-VISUAL C++ 2
+**Command:** 
+- Float: Window.Float 
+- Dock: Window.Dock 
+- Dock as Tabbed Document: Window.DockasTabbedDocument
 
-Alt+F6 (dock)
+**Versions:** 2010
 
-VISUAL C++ 6
+**Code:** vstipTool0008
 
-[no shortcut]
+In Visual Studio 2010, the Guide Diamond has been revamped to provide better visual cues for docking windows. Unlike the previous version, which didn't offer clear previews, the improved Guide Diamond displays accurate previews of how your docked window will appear. 
 
-VISUAL STUDIO 6
+To rearrange windows using the Guide Diamond:
+1. Drag the title bar of your window over one of the previews in the Guide Diamond.
+2. Once the preview matches the desired position for your window, release the mouse.
+3. The window will dock at the selected location based on the preview in the Guide Diamond.
 
-[no shortcut]
+**03.02 Dock a Floating Tool Window Back to Its Previous Location**
 
-WINDOWS
+To dock a floating tool window back to its previous location, follow these steps:
 
-Alt,W, F (Float); Alt,W, K (Dock); Alt,W, T (Dock as Tabbed Document)
+**Default Shortcut:** [no shortcut]
 
-MENU
+**Visual Basic 6:** [no shortcut]
 
-Window | Float; Window | Dock; Window | Dock as Tabbed Document
+**Visual C# 2005:** [no shortcut]
 
-COMMAND
+**Visual C++ 2:** Alt+F6
 
-Window.Float; Window.Dock; Window.DockasTabbedDocument
+**Visual C++ 6:** [no shortcut]
 
-VERSIONS
+**Visual Studio 6:** [no shortcut]
 
-2010
+**Windows:** Alt,W, K
 
-CODE
+**Menu:** Window | Dock
 
-vstipTool0008
+**Command:** Window.Dock
 
-Docking and undocking windows in the IDE has always been interesting. In Visual Studio, we have a tool called the Guide Diamond that is used to assist our efforts. The following illustration shows the Guide Diamond in Visual Studio 2008.
+**Versions:** 2005, 2008, 2010
 
+**Code:** vstipTool0036
 
-Unfortunately, this doesn’t really provide good visual cues to help determine the final position of a window. Visual Studio 2010 provides a new and improved Guide Diamond that makes docking much easier, as shown in the following illustration.
+1. Right-click the Title Bar of the floating tool window.
+2. From the context menu, select "Dock."
 
+**Note:** 
+- In Visual Studio 2008, you can alternatively double-click the title bar to dock the window back to its previous location.
+- For Visual Studio 2005, you can dock the tool window back to its previous location by double-clicking the title bar. The title bar menu in Visual Studio 2005 uses the term "Dockable" instead of "Dock."
 
-Now you can clearly see how your docked window will look based on the image in the diamond. Just drag the title bar of your window over one of the previews in the Guide Diamond.
+**03.03 Cycle Through Your Open Tool Windows**
 
+To cycle through your open tool windows, follow these steps:
 
-When the preview matches where you want your window to go, just release the mouse and the window docks at that location.
+**Default Shortcut:** Alt+F6 (next); Alt+Shift+F6 (previous)
 
+**Visual Basic 6:** Alt+F6 (next); Alt+Shift+F6 (previous)
 
+**Visual C# 2005:** Alt+F6 (next); Alt+Shift+F6 (previous)
 
+**Visual C++ 2:** F6 (next); Shift+F6 (previous)
 
+**Visual C++ 6:** Alt+F6 (next); Alt+Shift+F6 (previous)
 
-03.01 Rearrange Windows in Visual Studio 2010 Using the Guide Diamond
-03.02 Dock a Floating Tool Window Back to Its Previous Location
-03.03 Cycle Through Your Open Tool Windows
-16h 35m remaining
-03.02 Dock a Floating Tool Window Back to Its Previous Location
-DEFAULT
+**Visual Studio 6:** Alt+F6 (next); Alt+Shift+F6 (previous)
 
-[no shortcut]
+**Windows:** [no shortcut]
 
-VISUAL BASIC 6
+**Command:** Window.NextPane; Window.PreviousPane
 
-[no shortcut]
+**Versions:** 2005, 2008, 2010
 
-VISUAL C# 2005
+**Code:** vstipTool0038
 
-[no shortcut]
+1. Press Alt+F6 to cycle to the next open tool window.
+2. Press Alt+Shift+F6 to cycle to the previous open tool window.
 
-VISUAL C++ 2
+**Note:** 
+- An "open" tool window refers to those whose tab appears in the IDE, even if they are hidden.
 
-Alt+F6
+**03.04 Closing Tool Windows**
 
-VISUAL C++ 6
+To close tool windows, follow these steps:
 
-[no shortcut]
+**Default Shortcut:** Shift+Esc
 
-VISUAL STUDIO 6
+**Visual Basic 6:** Shift+Esc
 
-[no shortcut]
+**Visual C# 2005:** Shift+Esc
 
-WINDOWS
+**Visual C++ 2:** Shift+Esc
 
-Alt,W, K
+**Visual C++ 6:** Shift+Esc
 
-MENU
+**Visual Studio 6:** Shift+Esc
 
-Window | Dock
+**Windows:** [no shortcut]
 
-COMMAND
+**Command:** Window.CloseToolWindow
 
-Window.Dock
+**Versions:** 2005, 2008, 2010
 
-VERSIONS
+**Code:** vstipTool0039
 
-2005, 2008, 2010
+1. Click the Close button (the "X" in the upper-right corner) of the tool window.
+2. Alternatively, use the keyboard shortcut Shift+Esc to close the current tool window.
 
-CODE
+**03.05 Expand and Collapse All in the Toolbox**
 
-vstipTool0036
+To expand or collapse all items in the Toolbox, use the following shortcuts:
 
-You can easily dock a floating tool window back to its previous docked location.
+**Windows:** 
+- * (asterisk) to expand all
+- / (forward slash) to collapse all
 
+**Versions:** 2005, 2008, 2010
 
-Just right-click the Title Bar, and choose Dock, as shown in the following illustration.
+**Code:** vstipTool0050
 
+1. When the Toolbox is active, press * (asterisk) to expand all items.
+2. Similarly, press / (forward slash) when the Toolbox is active to collapse all items.
 
-NOTE
-In Visual Studio 2008, you can also double-click the title bar to dock the window back to its previous location.
+**03.06 Searching in the Toolbox**
 
-In Visual Studio 2005, to place a tool window back to its previous docking location without using the docking guides, you must double-click the title bar. Additionally, the title bar menu is slightly different for 2005. The word “Dockable” is used in place of the word “Dock.”
+To search for controls in the Toolbox, follow these steps:
 
+**Default Shortcut:**
+- Ctrl+Alt+X to view the Toolbox
 
+**Versions:**
+- Visual Basic 6
+- Visual C# 2005
+- Visual C++ 2
+- Visual C++ 6
+- Visual Studio 6
 
+**Visual C# 2005 Additional Shortcuts:**
+- Ctrl+W, X to view the Toolbox
+- Ctrl+W, Ctrl+X to view the Toolbox
 
+**Windows Shortcut:**
+- Alt+V, X to view the Toolbox
+- TAB to move to the next result
+- ESC to cancel
 
+**Menu Option:**
+- View | Toolbox
 
-03.02 Dock a Floating Tool Window Back to Its Previous Location
-03.03 Cycle Through Your Open Tool Windows
-03.04 Closing Tool Windows
-16h 35m remaining
-03.03 Cycle Through Your Open Tool Windows
-DEFAULT
+**Command:**
+- View.Toolbox
 
-Alt+F6 (next); Alt+Shift+F6 (previous)
+**Code:** vstipTool0114
 
-VISUAL BASIC 6
+1. Switch focus to the Toolbox using Ctrl+Alt+X.
+2. Start typing the name of the control you are looking for.
+3. The letters you type will appear in the Status Bar.
+4. Press Tab to navigate to the next result or Esc to cancel the search.
+5. Use the Backspace key to delete characters and refine your search.
 
-Alt+F6 (next); Alt+Shift+F6 (previous)
+**03.07 Navigate Among Tabs in the Toolbox**
 
-VISUAL C# 2005
+To navigate between tabs in the Toolbox, follow these steps:
 
-Alt+F6 (next); Alt+Shift+F6 (previous)
+**Keyboard Shortcut:**
+- Ctrl+[Up, Down] Arrow
 
-VISUAL C++ 2
+**Versions:**
+- 2005, 2008, 2010
 
-F6 (next); Shift+F6 (previous)
+**Code:** vstipTool0051
 
-VISUAL C++ 6
+1. Use the keyboard shortcut Ctrl+[Up, Down] Arrow to navigate between tabs in the Toolbox.
+2. Pressing Ctrl+Down Arrow expands the next tab and jumps to the first item in that group.
+3. Pressing Ctrl+Up Arrow jumps to the last item in the previous control group.
 
-Alt+F6 (next); Alt+Shift+F6 (previous)
+**03.08 Window Layouts: The Four Modes**
 
-VISUAL STUDIO 6
+In Visual Studio, there are four window layout modes that dictate the arrangement of windows and toolbars:
 
-Alt+F6 (next); Alt+Shift+F6 (previous)
+**Versions:** 2005, 2008, 2010
 
-WINDOWS
+**Code:** vstipEnv0051
 
-[no shortcut]
+1. **Design View:**
+   - This is the default view when you start Visual Studio.
+   - It's commonly referred to as the "normal" view.
+   
+2. **Debugging View:**
+   - When you enter Debug Mode while debugging your code, Visual Studio switches to this view.
+   
+3. **Full Screen:**
+   - Accessible via View | Full Screen (Shift+Alt+Enter).
+   - It maximizes the workspace by hiding toolbars and other UI elements.
+   
+4. **File View:**
+   - This mode is activated when opening a file via `devenv.exe [filename]`.
+   - It provides a focused view of the file being edited.
+   
+**Note:** 
+- Tool windows and command bar customizations are saved separately for each mode.
+- All four states are saved when you shut down Visual Studio.
 
-COMMAND
+**03.09 Window Layouts: Design, Debug, and Full Screen**
 
-Window.NextPane; Window.PreviousPane
+In Visual Studio, there are three common window layout modes: Design, Debug, and Full Screen.
 
-VERSIONS
+**Versions:** 2005, 2008, 2010
 
-2005, 2008, 2010
+**Code:** vstipEnv0052
 
-CODE
+1. **Design Mode:**
+   - This mode is the default view upon starting Visual Studio.
+   - It's the most common mode for regular coding tasks.
+   - Users can customize the layout to suit their preferences.
+   - Example: A website design layout is illustrated in the provided screenshot.
 
-vstipTool0038
+2. **Debug Mode:**
+   - Entered when debugging code.
+   - Provides specific tools and views tailored for debugging tasks.
+   - Layout can be customized independently from the Design Mode.
+   - Example: Debug Window Layout for a console application is depicted.
 
-In vstipTool0023, 04.08 Using the IDE Navigator, page 160, you saw how to get around among your open tool windows. Here’s how to get around among your open tool windows without using the IDE Navigator.
+3. **Full Screen Mode:**
+   - Accessed by pressing Shift+Alt+Enter.
+   - Maximizes the workspace by hiding toolbars and other UI elements.
+   - Particularly useful for focused coding sessions without distractions.
+   - Previously discussed in vstipEnv0024, AX.20 Full Screen Mode.
+   - Illustrative example of Full Screen Mode is provided.
 
-Press Alt+F6 (next) or Alt+Shift+F6 (previous) to begin going through your open tool windows. It’s important to understand what the word “open” means in this context. An “open” tool window is one whose tab appears in the IDE. For example, suppose you have the following view:
+Each mode offers distinct layouts that users can customize based on their workflow and preferences.
 
+**03.10 Working with Tabs in the Toolbox**
 
-The Error List, Command Window, and Breakpoints are “open” tool windows—even though the tool windows are hidden. This is an important distinction as you use this tip, because it explains why you cycle through all the open tool windows—whether or not they are hidden.
+In Visual Studio, organizing items in the Toolbox using tabs can enhance productivity. Here's how to work with tabs effectively:
 
+**Versions:** 2005, 2008, 2010
 
+**Code:** vstipTool0054
 
+1. **Creating Tabs:**
+   - Right-click inside the Toolbox and select "Add Tab."
+   - Enter a name for the new tab and press Enter.
 
+2. **Adding Items:**
+   - Copy items from existing tabs and paste them into the custom tab.
+   - Alternatively, drag items onto new tabs to organize them.
 
-03.03 Cycle Through Your Open Tool Windows
-03.04 Closing Tool Windows
-03.05 Expand and Collapse All in the Toolbox
-16h 35m remaining
-03.04 Closing Tool Windows
-DEFAULT
+3. **Custom Controls:**
+   - Right-click in the custom tab and choose "Choose Items" to add custom controls.
 
-Shift+Esc
+4. **Renaming Tabs:**
+   - Right-click on the tab and select "Rename" to change the tab name.
 
-VISUAL BASIC 6
+5. **Deleting Tabs:**
+   - Right-click on the tab and choose "Delete."
+   - Confirm deletion in the dialog box.
+   - Note that deleting a tab removes it along with all its items, but doesn't permanently delete controls from the system.
 
-Shift+Esc
+Organizing Toolbox items into tabs provides a structured approach for accessing and managing controls in Visual Studio.
 
-VISUAL C# 2005
+**03.11 Using Additional Browsers for Web Development**
 
-Shift+Esc
+In Visual Studio, you can utilize different browsers for web development tasks. Here's how to do it:
 
-VISUAL C++ 2
+**Versions:** 2005, 2008, 2010
 
-Shift+Esc
+**Code:** vstipEnv0057
 
-VISUAL C++ 6
+1. **Accessing the Browse With Dialog Box:**
+   - Navigate to the File menu and select "Browse With" with either your web project or a webpage selected in Solution Explorer.
+   - Alternatively, right-click on the file in Solution Explorer and choose "Browse With."
 
-Shift+Esc
+2. **Adding New Browsers:**
+   - If your desired browser is not automatically detected, click "Add."
+   - Enter the path to the browser's executable in the "Program Name" field.
+   - Assign a friendly name for the browser in the "Friendly Name" field.
 
-VISUAL STUDIO 6
+3. **Changing the Default Browser:**
+   - Select a browser from the list and click "Set As Default" to make it the default browser.
 
-Shift+Esc
+4. **Adjusting Browser Window Size:**
+   - Use the "Size Of Browser Window" drop-down list to choose the desired window size for the browser.
 
-WINDOWS
+5. **Removing Browsers:**
+   - To remove unwanted browser options, select the browser from the list and click "Remove."
 
-[no shortcut]
+Customizing browser options in Visual Studio allows for seamless integration with different web development environments and preferences.
 
-COMMAND
+**03.12 Auto-Hide All Tool Windows**
 
-Window.CloseToolWindow
+When dealing with a cluttered workspace in Visual Studio, you can quickly hide all tool windows using the following method:
 
-VERSIONS
+**Versions:** 2005, 2008, 2010
 
-2005, 2008, 2010
+**Code:** vstipTool0034
 
-CODE
+1. **Accessing the Auto Hide All Option:**
+   - Go to the Window menu and select "Auto Hide All."
+   - Alternatively, use the shortcut Alt + W + U.
 
-vstipTool0039
+**Note:** Once hidden, there's no direct method to "un-auto-hide" all tool windows at once. You'll need to manually bring back each tool window individually.
 
-Eventually, after using your tool windows, you will want to close one or more of them. You can always do this by clicking the Close button (the “X” in the upper-right corner).
+By using this feature, you can swiftly declutter your workspace by hiding all open tool windows simultaneously.
 
+**03.13 Showing Hidden Tool Windows with the Auto Hide Channel**
 
-Using the keyboard, you can simply press Shift+Esc to close the current tool window.
+If you've hidden tool windows in Visual Studio, you can easily reveal them using the Auto Hide Channel. Here's how:
 
+**Versions:** 2005, 2008, 2010
 
+**Code:** vstipTool0037
 
+1. **Accessing the Auto Hide Channel:**
+   - Navigate to any area where tool windows are hidden.
+   - Right-click on the bar where the tabs are located.
 
+2. **Viewing Hidden Tool Windows:**
+   - A list of hidden tool windows will appear.
+   - This method works for both the bottom and left channels.
 
-03.04 Closing Tool Windows
-03.05 Expand and Collapse All in the Toolbox
-03.06 Searching in the Toolbox
-16h 35m remaining
-03.05 Expand and Collapse All in the Toolbox
-WINDOWS
+3. **Best Practices:**
+   - Click in the empty space within the channel, beyond any tabs, for optimal results.
 
-* (expand all); / (collapse all)
+4. **Revealing Hidden Windows:**
+   - Simply select the desired tool window from the list to show it again.
 
-VERSIONS
+By utilizing the Auto Hide Channel, you can easily manage and access hidden tool windows within Visual Studio.
 
-2005, 2008, 2010
+**03.14 Moving Tool Windows Around with Your Keyboard**
 
-CODE
+In Visual Studio 2010, you can efficiently manage tool windows using keyboard shortcuts. Here's how:
 
-vstipTool0050
+**Versions:** 2010
 
-You can quickly expand the entire Toolbox by pressing the asterisk (*) when the Toolbox is active.
+**Code:** vstipTool0041
 
+1. **Accessing the Dock Menu:**
+   - When an active tool window is docked, press Alt+- (minus sign) to bring up the Dock menu.
 
-You can also collapse the entire Toolbox by pressing the forward slash (/) when the Toolbox is active.
+2. **Navigating the Dock Menu:**
+   - Use the arrow keys to select an item from the menu.
 
+3. **For Floating Tool Windows:**
+   - Active floating tool windows have a System menu.
+   - Press Alt+Space to access the System menu for floating tool windows.
 
+4. **Commands:**
+   - Familiar commands like Float, Dock, etc., are available in the Window menu for further window manipulations.
 
+By utilizing these keyboard shortcuts, you can efficiently move, resize, and manage tool windows in Visual Studio 2010.
 
+**03.15 Keyboard Access to a Tool Window’s Toolbar**
 
+In Visual Studio 2005, 2008, and 2010, you can access a tool window's toolbar using keyboard shortcuts. Here's how:
 
-03.05 Expand and Collapse All in the Toolbox
-03.06 Searching in the Toolbox
-03.07 Navigate Among Tabs in the Toolbox
-16h 35m remaining
-03.06 Searching in the Toolbox
-DEFAULT
+**Windows:** Shift+Alt (for some), Tab (for others)
 
-Ctrl+Alt+X (view toolbox)
+1. **Accessing Toolbar:**
+   - For some tool windows, press Shift+Alt to access the toolbar.
+   - For others, simply press the Tab key.
 
-VISUAL BASIC 6
+2. **Example Usage:**
+   - To access the Solution Explorer Toolbar, press Shift+Alt.
+   - For the Properties Tool Window, use the Tab key.
 
-Ctrl+Alt+X (view toolbox)
+3. **Navigation:**
+   - Once the toolbar is accessible, use the arrow keys to navigate between toolbar items.
+   - Press the Enter key to activate the selected button.
 
-VISUAL C# 2005
+By utilizing these keyboard shortcuts, you can conveniently access and navigate through the toolbar of any active tool window without relying on the mouse.
 
-Ctrl+Alt+X (view toolbox); Ctrl+W, X (view toolbox); Ctrl+W, Ctrl+X (view toolbox)
+**03.16 Command Prompt History**
 
-VISUAL C++ 2
+In Windows, you can access the command prompt history using the following shortcuts:
 
-Ctrl+Alt+X (view toolbox)
+**Accessing History:**
+- **Windows:** F7 (opens history window); Up / Down Arrow (navigate through history)
 
-VISUAL C++ 6
+**Usage:**
+1. **Viewing History:**
+   - After typing commands into the Command Window, clear the screen by typing "cls" and pressing Enter.
+   - To view command history:
+     - Press the Up Arrow key to navigate through the history directly at the prompt.
+     - Alternatively, press F7 to open the history window.
 
-Ctrl+Alt+X (view toolbox)
+2. **Navigating and Executing Commands:**
+   - While in the history window, use the Up or Down Arrow keys to navigate through the list of previously typed commands.
+   - Select a command from the history list and press Enter to execute it.
 
-VISUAL STUDIO 6
+**Note:** Ensure that you've entered commands into the Command Window before attempting to access the command prompt history. These shortcuts provide convenient ways to retrieve and execute previously entered commands without retyping them.
 
-Ctrl+Alt+X (view toolbox)
+**03.17 Command Prompt Tab Completion**
 
-WINDOWS
+In Windows, you can utilize tab completion in the command prompt for efficient file and command navigation. Here's how:
 
-Alt,V, X (view toolbox); TAB (next result); ESC (cancel)
+**Using Tab Completion:**
+- **Windows:** Tab
 
-MENU
+**Simple Search:**
+1. Type the first letter of a file or command.
+2. Press Tab to display all files or commands starting with that letter.
+   - Example: Typing "a" and pressing Tab shows all files starting with "a".
 
-View | Toolbox
+**Wildcard Search:**
+1. Utilize wildcards to match characters:
+   - Use * to represent any number of characters.
+   - Use ? to represent a single character.
+2. Example:
+   - To find files containing the letter "a" anywhere in the name, use "*a*".
+   - Press Tab to display the first result.
+   - Press Tab repeatedly to cycle through all files matching the criteria.
 
-COMMAND
+**Example Scenarios:**
+1. Searching for files:
+   - Enter a partial file name or pattern (e.g., "*a*").
+   - Press Tab to view matching files.
+   - Continue pressing Tab to cycle through results.
 
-View.Toolbox
+2. Searching for commands:
+   - Type a command followed by a partial file name or pattern (e.g., "edit *a*").
+   - Press Tab to view matching files.
+   - Continue pressing Tab to cycle through results.
 
-VERSIONS
+**Benefits of Tab Completion:**
+- Increases efficiency in navigating files and executing commands.
+- Offers a powerful and versatile feature for command prompt users.
+- Enhances productivity by reducing manual typing and improving search accuracy.
 
-2010
+Mastering tab completion is essential for maximizing productivity and efficiency when working with the command prompt.
 
-CODE
+**03.18 Undock and Dock a Single Tool Window in a Group**
 
-vstipTool0114
+Undocking and docking tool windows in Visual Studio is a common task. Here are the different techniques you can use to accomplish these actions:
 
-This tip provides a much-requested and much-anticipated feature: searching the Toolbox.
+**Undock:**
 
-Simply switch focus to the Toolbox (Ctrl+Alt+X), as shown in the following illustration.
+1. **Click and Drag:**
+   - With the mouse, click and drag the tab out of the group.
+   - This action separates the tool window from the group.
 
+2. **Menu:**
+   - With the tool window active, select "Window" > "Float" from the menu bar.
+   - This action floats the tool window, separating it from the group.
 
-Now start typing the name of the control you are looking for. In the following example, I’m looking for the TextBox control by typing tex:
+3. **Control Box (Visual Studio 2010 only):**
+   - Press Alt+minus (–) to open the tool window menu.
+   - Press "F" to float the tool window.
+   - This action also floats the tool window.
 
+**Dock:**
 
-The letters you are typing appear in the Status Bar, and you are even provided instructions either for looking for the next item or for cancelling the search.
+1. **Click and Drag:**
+   - Click and drag the tool window back into the desired group.
+   - Drag the tool window's title bar over another tool window's title bar in the group.
+   - Look for the target shading resembling a tab being added to the existing group.
+   - This action docks the tool window into the specified group.
 
-Press Tab to go the next result, or press Esc to cancel. Also, you can actively use the Backspace key to delete letters from the search when you want to quickly retype new characters.
+2. **Menu:**
+   - Go to "Window" > "Dock" from the menu bar.
+   - This action docks the tool window back into its original group.
 
+3. **Control Box (Visual Studio 2010 only):**
+   - Press Alt+minus (–) to open the tool window menu.
+   - Press "K" to dock the tool window back to its original location.
+   - This action also docks the tool window into its original group.
 
+**Result:**
+   - Using any of these methods places the tool window back into the group it originated from, except for the click and drag method, which allows placing the tool window anywhere.
 
+**03.19 Understanding Commands: Simple Commands**
 
+Understanding commands in Visual Studio is essential for efficient development. Here's a breakdown of how commands work:
 
-03.06 Searching in the Toolbox
-03.07 Navigate Among Tabs in the Toolbox
-03.08 Window Layouts: The Four Modes
-16h 35m remaining
-03.07 Navigate Among Tabs in the Toolbox
-KEYBOARD
+1. **Definition of Commands:**
+   - According to MSDN documentation, commands allow direct interaction with the IDE from the keyboard.
+   - They represent actions that can be performed within Visual Studio.
 
-Ctrl+[Up, Down] Arrow
+2. **Example: Adding a Class:**
+   - The typical way to add a class is by navigating to "Project" > "Add Class" in the menu.
+   - This action opens the "Add New Item" dialog box, where you can create a new class.
 
-VERSIONS
+3. **Accessing Commands:**
+   - You can access commands through the "command well," located in "Tools" > "Options" > "Environment" > "Keyboard."
+   - Typing keywords related to the action you want to perform narrows down the list of available commands.
 
-2005, 2008, 2010
+4. **Finding the Command:**
+   - In the command well, typing "Add Class" reveals the "Project.AddClass" command.
+   - This command follows the menu structure and represents the action of adding a class to the project.
 
-CODE
+5. **Assigning Shortcuts:**
+   - By default, some commands may not have shortcuts assigned.
+   - You can assign shortcuts to commands to streamline your workflow.
+   - In the example, Ctrl+M, Ctrl+7 is assigned as a shortcut for the "Project.AddClass" command.
 
-vstipTool0051
+6. **Using Assigned Shortcuts:**
+   - After assigning a shortcut, you can use it to execute the associated command.
+   - Pressing Ctrl+M, Ctrl+7 invokes the "Project.AddClass" command, opening the "Add New Item" dialog box.
 
-You can jump between tabs in the Toolbox.
+7. **Benefits of Commands:**
+   - Commands provide a quick and efficient way to perform actions in Visual Studio.
+   - Once assigned a shortcut, commands can be executed directly from the keyboard, saving time and effort.
 
+Understanding commands and assigning shortcuts can significantly enhance your productivity in Visual Studio.
 
-Just press Ctrl+[Up, Down] Arrow to navigate. When you use Ctrl+Down Arrow, it expands the next tab and jumps to the first item in that group, as shown in the following illustration.
+**03.20 Understanding Commands: Aliases**
 
+Understanding aliases in Visual Studio can streamline your workflow by allowing you to execute commands quickly. Here's how aliases work:
 
-When you press Ctrl+Up Arrow it jumps to the last item in the previous control group:
+1. **Accessing the Command Window:**
+   - You can access the Command Window by pressing Ctrl+Alt+A, which opens a window where you can execute commands and manage aliases.
 
+2. **Listing Current Aliases:**
+   - Typing `alias` in the Command Window displays a list of current aliases, making it easy to see which shortcuts are available.
 
+3. **Using Existing Aliases:**
+   - Aliases can be used to execute commands without typing the full syntax.
+   - For example, the alias `bp` corresponds to the command `Debug.ToggleBreakpoint`, allowing you to set a breakpoint quickly by typing `bp` in the Command Window.
 
+4. **Creating New Aliases:**
+   - You can create new aliases using the syntax `alias [alias_name] [command]` in the Command Window.
+   - For instance, `alias ac Project.AddClass` creates an alias `ac` for the `Project.AddClass` command.
 
+5. **Viewing Assigned Aliases:**
+   - To check which command an alias is assigned to, type `alias [alias_name]` in the Command Window.
+   - For example, typing `alias ac` reveals the command assigned to the `ac` alias.
 
+6. **Deleting Aliases:**
+   - If you want to remove an alias, you can do so by typing `alias [alias_name] /d` or `alias [alias_name] /delete` in the Command Window.
+   - For instance, `alias ac /d` deletes the `ac` alias.
 
-03.07 Navigate Among Tabs in the Toolbox
-03.08 Window Layouts: The Four Modes
-03.09 Window Layouts: Design, Debug, and Full Screen
-16h 35m remaining
-03.08 Window Layouts: The Four Modes
-VERSIONS
+Aliases provide a convenient way to execute commands in Visual Studio, saving time and reducing the need to remember complex command syntaxes. They can be managed easily through the Command Window, allowing for customization of your development environment to suit your preferences.
 
-2005, 2008, 2010
+**03.21 Understanding Commands: Arguments and Switches**
 
-CODE
+Understanding commands with arguments and switches in Visual Studio allows for quick execution of actions without relying on user interface elements. Here's how to use arguments and switches with commands:
 
-vstipEnv0051
+1. **Accessing the Command Window:**
+   - You can access the Command Window by pressing Ctrl+Alt+A, where you can execute commands and explore their functionalities.
 
-Ever wonder why the windows seem to shift around when you go from Design to Debug Mode? The answer is simple: window layouts.
+2. **Exploring Commands:**
+   - To learn about commands that take arguments, you can refer to the "Visual Studio Commands with Arguments" MSDN documentation.
 
-You might have seen them if you have ever tried to export your window layouts. You can find it under General Settings | Window Layouts, as shown in the following illustration.
+3. **Basic Use:**
+   - Open the Command Window and execute a command without any arguments to observe its default behavior. For example, running the `Edit.Find` command opens the Find And Replace dialog box.
 
+4. **Arguments and Switches:**
+   - Commands like `Edit.Find` often take arguments and switches to customize their behavior.
+   - The `Edit.Find` command, for instance, takes the argument `findwhat` and offers various switches such as `/doc`, `/markall`, `/wild`, etc.
 
-The four window layout modes in Visual Studio are as follows.
+5. **Listing Current Options:**
+   - You can list the current options set for a command by typing `[command] /options` in the Command Window.
 
-Design View
-This view is the one you see when you start up Visual Studio. It’s what most people refer to as the “normal” view.
+6. **Resetting Options:**
+   - Resetting options to default values can be done using the `[command] /reset` syntax.
 
-Debugging View
-This is the view that you get when you enter Debug Mode as you are stepping through your code.
+7. **Using Arguments and Switches:**
+   - Utilize arguments and switches to perform specific tasks. For example, `Edit.Find *c* /wild /doc /markall` searches for lines containing the letter "c" in the current document, using wildcards and placing bookmarks on matching lines.
 
-Full Screen
-This is the view that you get when you go to View | Full Screen (Shift+Alt+Enter).
+8. **Creating Aliases:**
+   - To simplify frequent commands, you can create aliases. For instance, `alias findc Edit.Find *c* /wild /doc /markall` assigns an alias `findc` to the `Edit.Find` command with specific arguments and switches.
+   - This alias can be recalled using `findc` in the Command Window, bypassing the need to re-enter the full command.
 
-File View
-This is the lesser-known view that you can get when you open up a file via devenv.exe [filename].
+Understanding commands with arguments and switches enhances productivity by providing a more efficient way to execute tasks within Visual Studio. Aliases further streamline the process by allowing for quick access to frequently used commands.
 
+**03.22 Testing a Command**
 
-The thing to remember here is that your tool windows and your command bar customizations are saved separately for each state. There is no way to tell Visual Studio to use one state for all modes at this time. Additionally, when you shut down Visual Studio in any state, all four states are saved.
+Testing commands in Visual Studio is essential for understanding their functionality. Here's how you can quickly test a command:
 
+1. **Accessing the Command Window:**
+   - Press Ctrl+Alt+A to bring up the Command Window in Visual Studio.
 
+2. **Identifying the Command:**
+   - Determine the command you want to test. For example, let's test the "View.ViewCode" command.
 
+3. **Entering the Command:**
+   - In the Command Window, start typing the command you want to test. In this case, type "View.ViewCode". Note that case doesn't matter, and IntelliSense may assist you as you type.
 
+4. **Executing the Command:**
+   - Once you've entered the command, press Enter to execute it.
 
-03.08 Window Layouts: The Four Modes
-03.09 Window Layouts: Design, Debug, and Full Screen
-03.10 Working with Tabs in the Toolbox
-16h 35m remaining
-03.09 Window Layouts: Design, Debug, and Full Screen
-VERSIONS
+5. **Observing the Result:**
+   - Observe the result of the command. In this example, if a Design window is open, the "View.ViewCode" command will switch to the corresponding code view.
 
-2005, 2008, 2010
+6. **Testing Various Commands:**
+   - Feel free to test different commands to explore their functionalities. Ensure that you set up the appropriate context to ensure the command works as expected.
+  
+7. **Considerations:**
+   - Note that some commands may not be executable directly from the Command Window and might require other methods such as assigning a shortcut key or using the Find Combo box.
 
-CODE
+By testing commands, you can gain a better understanding of their capabilities and efficiently utilize them in your Visual Studio workflow. For more information on running commands, refer to vstipTool0070 (03.23 Understanding Commands: Running Commands).
 
-vstipEnv0052
+**03.23 Understanding Commands: Running Commands**
 
-In vstipEnv0051, 03.08 Window Layouts: The Four Modes, page 90, I discussed the four layout modes in Visual Studio. I thought it would be instructive to demonstrate the three most common modes together here.
+Understanding how to run commands efficiently in Visual Studio is crucial for enhancing your productivity. Here are the main ways you can run commands:
 
-As we discuss these modes, keep in mind that each has its own layout that can be customized to your needs. For example, you might clearly need some windows in Design Mode (for example, the Pending Changes window) that perhaps aren’t necessary in Debug Mode.
+1. **Shortcuts:**
+   - Utilize shortcut keys assigned to specific commands. For example, the "View.Code" command may have predefined shortcut keys.
 
-Design Mode
-This is the mode you see when you first start up Visual Studio. It is one of the two most common modes you will find yourself in. The following illustration shows a view of my Design Window Layout for a website.
+2. **Command Window:**
+   - Access the Command Window (Ctrl+Alt+A) designed explicitly for executing commands. Simply type in the command and press Enter to execute it.
 
+3. **Immediate Window:**
+   - Run commands from the Immediate Window (Ctrl+Alt+I) by typing a greater-than sign (>). Then enter the desired command and press Enter to execute it.
 
-Debug Mode
-When I enter Debug Mode, the second most common mode, I see my Debug Window Layout, as shown in the following console application.
+4. **Find Combo Box:**
+   - Execute commands from the Find Combo Box, accessed by pressing Ctrl+/ or Ctrl+D. Type a greater-than sign (>) followed by the command you want to run, and then press Enter.
 
+   - In most language settings, you can bypass typing the greater-than sign by using Ctrl+/ directly, which automatically inserts the sign for you in the Find Combo Box.
 
-Full Screen Mode
-I addressed this mode in vstipEnv0024, AX.20 Full Screen Mode, in Appendix B (http://go.microsoft.com/FWLink/?Linkid=223758). You can get here by pressing Shift+Alt+Enter. An example of what it looks like is shown in the following illustration.
+By familiarizing yourself with these methods, you can efficiently execute commands in Visual Studio, enhancing your workflow and productivity. For more information about shortcut keys, refer to vstipTool0061 (03.24 Find Keyboard Shortcuts).
 
+**03.24 Find Keyboard Shortcuts**
 
+In Visual Studio, discovering keyboard shortcuts for various commands can significantly enhance your productivity. Here's how you can find and utilize keyboard shortcuts effectively:
 
+1. **Accessing Keyboard Shortcuts:**
+   - Navigate to the Tools menu and select Options.
+   - Within Options, go to Environment and then Keyboard settings.
 
+   ![Tools | Options | Environment | Keyboard](image_link)
 
+2. **Exploring Available Commands:**
+   - In the Keyboard settings dialog, you can search for specific commands. For example, if you're interested in the keyboard shortcuts for "View | Code," start by typing "View." in the search bar.
+   - Scroll through the list of commands to find relevant entries. Commands are typically named using dot notation, such as "View.ViewCode."
 
-03.09 Window Layouts: Design, Debug, and Full Screen
-03.10 Working with Tabs in the Toolbox
-03.11 Using Additional Browsers for Web Development
-16h 35m remaining
-03.10 Working with Tabs in the Toolbox
-WINDOWS
+3. **Finding Shortcut Keys:**
+   - Once you've located a command of interest, check the "Shortcuts For Selected Command" section to see if any shortcut keys are assigned to it.
 
-Shift+F10, A (with the Toolbox selected)
+   ![Shortcuts For Selected Command](image_link)
 
-MENU
+4. **Testing Shortcuts:**
+   - Try out the discovered shortcut keys in the appropriate context to confirm their functionality.
+   - For example, if F7 is listed as a shortcut for "View.ViewCode," navigate to the Designer and press F7 to see if it opens the code view.
 
-[Right-click the Toolbox] | Add Tab
+5. **Additional Tips:**
+   - Shortcuts can vary depending on the context. For instance, different shortcuts might be assigned for accessing code from the Designer and the Class Diagram.
 
-COMMAND
+   - Experiment with different commands and shortcuts to optimize your workflow and speed up your development tasks.
 
-Tools.AddTab
+By utilizing the Keyboard settings in Visual Studio, you can easily discover and leverage keyboard shortcuts to streamline your development process and improve efficiency.
 
-VERSIONS
+**03.25 Keyboard Shortcuts: Additional Mapping Schemes**
 
-2005, 2008, 2010
+In Visual Studio, you can customize keyboard shortcuts to match different mapping schemes, including those from previous versions. Here's how to access and apply additional mapping schemes:
 
-CODE
+1. **Accessing Keyboard Settings:**
+   - Navigate to the Tools menu and select Options.
+   - Within Options, go to Environment and then Keyboard settings.
 
-vstipTool0054
+   ![Tools | Options | Environment | Keyboard](image_link)
 
-The Toolbox is a pretty cool place, and one of its best features is the ability to organize items by using tabs.
+2. **Exploring Additional Mapping Schemes:**
+   - In the Keyboard settings dialog, locate the "Apply The Following Additional Keyboard Mapping Scheme" drop-down list.
 
-Creating Tabs
-To create a custom tab, right-click inside the Toolbox and choose Add Tab, as shown in the following illustration.
+3. **Understanding Mapping Scheme Options:**
+   - The drop-down list contains various mapping schemes, including those from previous versions of Visual Studio.
+   - For example, if you select "Visual C++ 6" as the additional mapping scheme, it will apply keyboard shortcuts common in Visual C++ 6.
 
+4. **Viewing Shortcut Changes:**
+   - After selecting an additional mapping scheme, observe how it affects the keyboard shortcuts for commands.
+   - For instance, if you previously examined the shortcuts for "View.ViewCode" with the default mapping scheme, applying an additional scheme like "Visual C++ 6" may introduce new shortcuts.
 
-Just type in a name for your new tab, and press Enter.
+   ![Shortcut Changes](image_link)
 
+5. **Managing Mapping Schemes:**
+   - If you prefer to stick with the default mapping scheme or another specific scheme, you can switch back by selecting it from the drop-down list.
+   - Choose "Default" or "General" to revert to the standard mapping scheme.
 
-Adding Items
-You can add items to your custom tab as you see fit. For example, to add controls to this new tab from existing tabs, just pick the control you want and copy it.
+By utilizing additional mapping schemes in Visual Studio, you can adapt keyboard shortcuts to match the conventions of previous versions or customize them according to your preferences. This flexibility enhances your productivity and ensures a seamless transition for users accustomed to different mapping schemes.
 
+**03.26 Keyboard Shortcuts: Creating New Shortcuts**
 
-Then go to your customized tab, and paste inside it to get a copy of that control for your use.
+In Visual Studio, you can easily create new keyboard shortcuts for commands to streamline your workflow. Here's a step-by-step guide on how to create a new shortcut:
 
+1. **Accessing Keyboard Settings:**
+   - Navigate to the Tools menu and select Options.
+   - Within Options, go to Environment and then Keyboard settings.
 
-You can also click and drag items onto new tabs.
+   ![Tools | Options | Environment | Keyboard](image_link)
 
+2. **Identifying the Command:**
+   - Choose the command for which you want to create a new shortcut. In this example, let's modify the "View.ViewCode" command.
 
-Custom Controls
-Of course, if you want custom controls, you can always right-click in the custom tab and select Choose Items, as shown in the following illustration.
+3. **Selecting Shortcut Keys:**
+   - Click on the "Press Shortcut Keys" area and enter the desired shortcut combination. For instance, let's use Ctrl+Alt+4.
 
+   ![Press Shortcut Keys](image_link)
 
-Renaming Tabs
-If you don’t like a tab name, you can always rename it:
+4. **Resolving Conflicts:**
+   - Check the "Shortcut Currently Used By" area to ensure that the chosen shortcut isn't already assigned to another command.
+   - If a conflict arises, try a different set of shortcut keys until you find an available combination.
 
+5. **Choosing Scope:**
+   - Decide the scope of the new shortcut using the drop-down menu labeled "Use New Shortcut In."
+   - The default scope is usually global, but you can specify a narrower scope if needed.
 
-Deleting Tabs
-Also notice the option to delete the tab, shown in the preceding illustration. If you choose this option, the following dialog box appears. When you click OK in this dialog box, you lose the tab as well as all the items on it.
+6. **Assigning the Shortcut:**
+   - Once you've selected the shortcut keys and scope, click the "Assign" button to make the shortcut active.
 
+7. **Testing the Shortcut:**
+   - After assigning the shortcut, click OK to save the changes.
+   - Test the new shortcut in the desired context. For example, if you modified "View.ViewCode," navigate to a design view and press the new shortcut keys (Ctrl+Alt+4).
 
-This action is just an organizational mechanism and doesn’t permanently delete any controls from your system, so you can add them as needed to any future tabs.
+   ![Testing Shortcut](image_link)
 
+8. **Resetting Shortcuts (If Necessary):**
+   - If you make a mistake or want to revert to the default shortcuts, you can click the "Reset" button in the Keyboard settings.
+   - Exercise caution when resetting shortcuts, as it will revert all shortcuts to their default configurations.
 
+By following these steps, you can efficiently create custom keyboard shortcuts tailored to your preferences, enhancing your productivity within Visual Studio.
 
+**03.27 Keyboard Shortcuts: Reset All Your Shortcuts**
 
+If you find yourself overwhelmed by the number of custom keyboard shortcuts you've created or if you simply want to return all shortcuts to their default settings, you can easily reset them. Here's how:
 
-03.10 Working with Tabs in the Toolbox
-03.11 Using Additional Browsers for Web Development
-03.12 Auto-Hide All Tool Windows
-16h 35m remaining
-03.11 Using Additional Browsers for Web Development
-WINDOWS
+1. **Accessing Keyboard Settings:**
+   - Navigate to the Tools menu and select Options.
+   - Within Options, go to Environment and then Keyboard settings.
 
-Alt,F, H (with file selected in Solution Explorer)
+2. **Resetting Shortcuts:**
+   - In the Keyboard settings, locate the Reset button.
 
-MENU
+   ![Reset Button](image_link)
 
-File | Browse With (with file selected in Solution Explorer)
+3. **Confirmation Prompt:**
+   - Clicking the Reset button prompts a warning message to confirm your action. The message highlights the consequences of resetting all keyboard mappings.
 
-COMMAND
+   ![Reset Confirmation](image_link)
 
-File.BrowseWith (with file selected in Solution Explorer)
+4. **Proceeding with Reset:**
+   - If you're certain you want to reset all shortcuts, click Yes in the confirmation prompt.
 
-VERSIONS
+5. **Effect of Reset:**
+   - After clicking Yes, all custom keyboard mappings are reverted to their default values.
 
-2005, 2008, 2010
+   ![Before Reset](image_link)
+   *Before Reset*
 
-CODE
+   ![After Reset](image_link)
+   *After Reset*
 
-vstipEnv0057
+   The illustrations above depict the state before and after resetting the keyboard shortcuts.
 
-When you are doing web development in Visual Studio, you might want to use a different default browser than you are currently using. You can do this by using the Browse With dialog box.
+Before proceeding with the reset, ensure that you're fully aware of the implications, as it will remove all custom shortcuts you've created. Use this feature judiciously, especially if you've invested time in configuring personalized shortcuts.
 
-Getting to this dialog box is a little interesting because it is context sensitive. It is best to have either your web project or a webpage selected in Solution Explorer to see the Browse With option on the File Menu or when you right-click:
+**03.28 Understanding Commands: Logging Commands**
 
+When working with commands in Visual Studio, it's often useful to keep a log of the commands you've executed. This is particularly handy for tracking your experimentation or troubleshooting sessions. Here's how you can log commands:
 
-The Browse With dialog box appears as shown in the following illustration.
+1. **Command Syntax:**
+   - To initiate logging, you can use either of the following syntaxes:
+     - `log [filename] [/on|/off] [/overwrite]`
+     - `Tools.LogCommandWindowOutput [filename] [/on|/off] [/overwrite]`
 
+2. **Arguments:**
+   - **Filename:** It's advisable to specify a path and filename for the log. If not provided, the default filename is `cmdline.log`, stored at `C:\Users\<user>\AppData\Roaming\Microsoft\VisualStudio\<version>`.
+   - **/on /off:** These arguments toggle logging on or off.
+   - **/overwrite:** By default, logging appends to the log file. Using this switch overwrites the existing log with new commands.
 
-Adding New Browsers
-Visual Studio automatically detects some browsers. For example, I installed Firefox and the preceding dialog box automatically detected it. However, if you don’t see your browser in the Browse With dialog box, you can click Add, enter the path to the executable in the Program Name field, and enter a friendly name for your browser in the Friendly Name field, as shown in the following illustration.
+3. **Example:**
+   - Open the Command Window (Ctrl+Alt+A) and start logging by specifying a filename: `log C:\Users\<user>\Documents\vslog.txt /on`.
+   - Execute various commands in Visual Studio. For demonstration, commands like `View.ViewCode` and `Edit.Find` are used.
+   - Once done, turn off logging with the command `log /off`.
+   - Navigate to the specified file location (e.g., My Documents) to view the log file.
 
+   ![Logging Commands](image_link)
 
-Changing the Default Browser
-You can also change the default browser by choosing a browser in the list and then clicking Set As Default:
+4. **Reviewing the Log:**
+   - Upon opening the log file, you'll find a sequential record of the commands you entered during the logging session.
+   - Each command, including the one to disable logging, is documented in the file.
 
+By logging commands, you can maintain a record of your actions within Visual Studio, aiding in reproducibility and troubleshooting efforts.
 
-Browser Window Size
-Choose the window size you want for your browser by using the Size Of Browser Window drop-down list:
+**03.29 Export Your Window Layouts**
 
+Once you've meticulously arranged your tool and document windows in Visual Studio to suit your workflow, it's essential to safeguard these settings for future use or in case of any mishap. Here's how you can export your window layouts:
 
-Removing Browsers
-Eventually, you might want to get rid of some of your browser choices. Simply select the browser in the list, and click Remove:
-note
+1. **Accessing the Export Option:**
+   - Navigate to **Tools | Import and Export Settings** (Alt+T, I).
 
-Get Link
-link
-table of contents
-search
-Settings
+2. **Initiating the Export Process:**
+   - Choose **Export Selected Environment Settings** and proceed by clicking **Next**.
 
+3. **Customizing Export Settings:**
+   - Uncheck the **All Settings** option to specify individual settings to export.
+   - Under **General Settings**, select **Window Layouts**, and proceed by clicking **Next**.
 
+4. **Naming and Saving the Export File:**
+   - Assign a descriptive name to the `.vssettings` file that will store your window layouts.
+   - Choose a suitable location for saving the file.
+   - Complete the export process by clicking **Finish**, followed by **Close**.
 
+5. **Using Exported Layouts:**
+   - Your window layouts are now safely stored in the specified location.
+   - In case you need to restore these layouts in the future, refer to the instructions for importing settings (see [vstipEnv0022](http://go.microsoft.com/FWLink/?Linkid=223758), *Importing or Changing Your Environment Settings*).
 
+By exporting your window layouts, you ensure that your preferred workspace configurations are preserved, offering peace of mind and convenience for future use.
 
-03.11 Using Additional Browsers for Web Development
-03.12 Auto-Hide All Tool Windows
-03.13 Showing Hidden Tool Windows with the Auto Hide Channel
-16h 35m remaining
-03.12 Auto-Hide All Tool Windows
-WINDOWS
+**03.30 Stop the Toolbox from Auto-Populating from the Solution**
 
-Alt,W, U
+If you're experiencing slowdowns due to the Toolbox auto-populating from the solution, you can prevent this by following these steps:
 
-MENU
+1. **Accessing Options:**
+   - Navigate to **Tools | Options | Windows Forms Designer** (Alt+T, O).
 
-Window | Auto Hide All
+2. **Changing Auto-Population Setting:**
+   - Within the Windows Forms Designer options, locate the setting named **AutoToolboxPopulate**.
+   - Set its value to **False** to disable auto-population from the solution.
 
-COMMAND
+3. **Customizing Toolbox Items:**
+   - When auto-population is disabled, you have the option to manually add custom items to the Toolbox.
+   - Right-click on the Toolbox to access the context menu and select **Choose Items**.
+   - From the dialog that appears, manually add the desired items to the Toolbox.
 
-Window.AutoHideAll
+4. **Troubleshooting:**
+   - If you're encountering issues where controls are not appearing automatically in the Toolbox, ensure that **AutoToolboxPopulate** is set to **True**.
 
-VERSIONS
+Disabling auto-population can help streamline your workflow, especially in solutions with numerous projects. Should you wish to revert to auto-population in the future, simply set **AutoToolboxPopulate** back to **True**.
 
-2005, 2008, 2010
+**03.31 Using External Tools**
 
-CODE
+External tools can be accessed and managed through the Tools menu in Visual Studio. Here's how to utilize external tools effectively:
 
-vstipTool0034
+1. **Accessing External Tools:**
+   - Navigate to **Tools | External Tools** (Alt+T, E) to access the list of available external tools.
 
-WARNING
-While this is a great tip, there is no way to “un-auto-hide” all tool windows, so you have to bring your tool windows back individually.
+2. **Adding External Tools:**
+   - To add additional external tools, click on **Add**.
+   - Enter a descriptive title for the tool, such as "Visual Studio Command Prompt".
 
-So let’s say you have a crowded space with lots of tool windows open, as shown in the following illustration.
+3. **Configuring Tool Properties:**
+   - Click on **Properties** to configure the tool settings.
+   - In the **Command** field, specify the path to the external tool or use system variables like `%comspec%` to refer to the command prompt.
+   - Provide necessary arguments in the **Arguments** field. You can refer to the properties of the external tool for this information.
+   - Optionally, specify the **Initial Directory** where the tool should start up.
+   - Choose additional options such as:
+     - **Use Output Window:** Redirects tool output to the Output window.
+     - **Treat Output As Unicode:** Select if the tool returns Unicode output.
+     - **Prompt For Arguments:** Enables modification of arguments before execution.
+     - **Close On Exit:** Determines whether the tool window closes upon exit.
 
+4. **Finalizing Configuration:**
+   - Once configured, click **OK** to add the external tool to the list.
 
-You can make all the tool windows go away quickly—just go to Window | Auto Hide All:
+By adding external tools to Visual Studio, you can enhance your workflow and access commonly used utilities directly from within the IDE.
 
+**03.32 Create Keyboard Accelerators for External Tools**
 
-All the tool windows are automatically hidden.
+After adding external tools to the Visual Studio Tools menu, you may want to assign accelerator keys for quick keyboard access. Here's how to do it:
 
+1. **Accessing External Tools Menu:**
+   - Go to **Tools | External Tools** (Alt+T, E) to view the list of external tools.
 
+2. **Understanding Accelerator Keys:**
+   - Press **Alt+T** to access the Tools menu.
+   - Notice that certain letters in the menu items are underlined. These underlined letters represent accelerator keys.
+   - For example, in the "Create GUID" tool, the letter "G" is underlined. Pressing **Alt+T** followed by **G** activates this tool.
 
+3. **Assigning Accelerator Keys:**
+   - To assign an accelerator key to an external tool, insert an ampersand (&) before any character in the tool's title.
+   - The character immediately following the ampersand becomes the accelerator key for that tool.
+   - Ensure that each tool entry in the menu has a unique accelerator key assigned.
 
+By assigning accelerator keys to external tools, you can streamline your workflow and access these tools quickly using keyboard shortcuts.
 
+**03.33 Exporting Your Command Window Aliases and External Tools List**
 
-03.12 Auto-Hide All Tool Windows
-03.13 Showing Hidden Tool Windows with the Auto Hide Channel
-03.14 Moving Tool Windows Around with Your Keyboard
-16h 35m remaining
-03.13 Showing Hidden Tool Windows with the Auto Hide Channel
-VERSIONS
+When exporting settings in Visual Studio, it's essential to ensure that Command Window Aliases and External Tools List are included, as they are not imported by default. Here's how to export these settings separately:
 
-2005, 2008, 2010
+1. **Accessing Import and Export Settings:**
+   - Go to **Tools | Import and Export Settings** (Alt+T, I) to initiate the settings export process.
 
-CODE
+2. **Selecting Exported Settings:**
+   - Choose **Export Selected Environment Settings** and click **Next**.
 
-vstipTool0037
+3. **Choosing Settings to Export:**
+   - Uncheck the **All Settings** option.
+   - Select the **Command Window Aliases** and **External Tools List** checkboxes.
 
-You can use a special place called the Auto Hide Channel to see what tool windows are hidden. Just go to any area that has hidden tool windows, and then right-click the bar where the tabs are to see a list of the hidden tool windows.
+4. **Completing the Export Process:**
+   - Proceed through the wizard, following the prompts.
+   - Give your exported file a logical name, such as "Command Aliases and External Tools List".
 
+By exporting these settings separately, you ensure that you have an extra copy that can be easily imported when needed, avoiding any oversight during the import process.
 
-The best part is that this works on the bottom channel.
+**03.34 Creating and Using a Macro**
 
+Macros in Visual Studio allow you to automate repetitive tasks. Here's how to create and use a macro:
 
-And it works on the channel to the left as well.
+1. **Recording a Macro:**
+   - Press **Ctrl+Shift+R** to start recording the macro.
+   - Perform the desired actions, such as adding a new class to the project and adding comments.
+   - Stop recording by pressing **Ctrl+Shift+R** again.
 
+2. **Saving the Macro:**
+   - Go to **Tools | Macros | Save Temporary Macro**.
+   - Name the macro, e.g., "MakeBubba", in the Macro Explorer.
 
-For best results, click in the empty space in the channel, beyond any tabs, as shown in the following illustration.
+3. **Testing the Macro:**
+   - Create a new project.
+   - Access the Macro Explorer using **Alt+F8**.
+   - Right-click the saved macro and choose **Run**.
+   - Verify that the macro performs the desired actions, such as creating a new class and adding comments.
 
+4. **Viewing Macro Code:**
+   - To view the code behind the macro, right-click the macro in the Macro Explorer and choose **Edit**.
+   - Review and edit the macro code as needed. The code is typically easy to read and understand.
 
-And, of course, to show any hidden window, just select it from the list.
+5. **Optional: Assigning a Shortcut Key:**
+   - Visit vstipTool0066 to learn how to assign a shortcut key to the macro for quicker access.
 
+By creating and using macros, you can automate repetitive tasks in Visual Studio, saving time and improving efficiency.
 
+**03.35 Visual Studio Image Library**
 
+The Visual Studio Image Library provides developers with a comprehensive collection of images that can be used in applications. Here's an overview of the library:
 
+1. **Location:**
+   - The images are stored in a .zip file located at:
+     - **"C:\Program Files\Microsoft Visual Studio <version>\Common7\VS<version>ImageLibrary\1033"**
+     - For example, in VS2010: **"C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\VS2010ImageLibrary\1033"**
 
+2. **Types of Files:**
+   - **Source Files:** Used with image editors to create or customize icons.
+   - **Output Files:** Composite images ready for immediate use by developers.
 
-03.13 Showing Hidden Tool Windows with the Auto Hide Channel
-03.14 Moving Tool Windows Around with Your Keyboard
-03.15 Keyboard Access to a Tool Window’s Toolbar
-16h 35m remaining
-03.14 Moving Tool Windows Around with Your Keyboard
-DEFAULT
+3. **Image Library Contents:**
+   - **Common Elements:** Source files consisting of various sizes of individual elements on transparent backgrounds. Useful for creating custom icons.
+   - **Actions:** Output file images representing verbs. Organized by format, size, and style.
+   - **Animations:** Contains common animations in .avi and .gif formats.
+   - **Annotations_Buttons:** Images for notifications, actions, or object states, separated by format and style.
+   - **Objects:** Output images representing nouns, commonly used in tree views or list views. Available in various sizes and colors.
 
-Alt+- (dock menu)
+4. **Using the Images:**
+   - Images should be used for their original intent.
+   - Ensure consistency with the description provided in the readme document found in each folder.
+   - Use appropriate formats and styles based on your application's requirements.
 
-VISUAL BASIC 6
-
-[no shortcut]
-
-VISUAL C# 2005
-
-Alt+- (dock menu)
-
-VISUAL C++ 2
-
-Alt+- (dock menu)
-
-VISUAL C++ 6
-
-Alt+- (dock menu)
-
-VISUAL STUDIO 6
-
-Alt+- (dock menu)
-
-WINDOWS
-
-Alt,Space (floating tool windows)
-
-MENU
-
-Window | [Float, Dock, etc.] (dock menu)
-
-COMMAND
-
-Window.ShowDockMenu
-
-VERSIONS
-
-2010
-
-CODE
-
-vstipTool0041
-
-NOTE
-The minus sign (-) used in the keyboard shortcut is from the top row of numeric keys on your keyboard, not the minus sign on the numeric keypad.
-
-With the rewrite of the IDE for Visual Studio 2010, you’ll find some changes in how you control the tool windows. When an active tool window is docked, you can use Alt+minus (-) to bring up the Dock menu and then use your arrow keys to pick an item from the menu.
-
-
-This works for floating tool windows as well.
-
-
-But active floating tool windows have a System menu that you can access only by pressing Alt+Space.
-
-
-These commands should be familiar to just about everyone, and they give you full control over moving, resizing, and other window manipulations.
-
-
-
-
-
-03.14 Moving Tool Windows Around with Your Keyboard
-03.15 Keyboard Access to a Tool Window’s Toolbar
-03.16 Command Prompt History
-16h 35m remaining
-03.15 Keyboard Access to a Tool Window’s Toolbar
-WINDOWS
-
-Shift+Alt; Tab
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipTool0042
-
-Sometimes, when you have an active tool window, you just want access to the toolbar in the window without having to reach over and use your mouse.
-
-
-A little-known fact is that you can do this very easily for any active tool window by pressing Shift+Alt for some or by pressing Tab for others. For example, to get access to the Solution Explorer Toolbar, just press Shift+Alt.
-
-
-In the Properties Tool Window, you would use press the Tab key to gain access to the toolbar.
-
-
-Now you can use your arrow keys to move between toolbar items, and use the Enter key to “press” the button you choose.
-
-
-
-
-
-03.15 Keyboard Access to a Tool Window’s Toolbar
-03.16 Command Prompt History
-03.17 Command Prompt Tab Completion
-16h 35m remaining
-03.16 Command Prompt History
-WINDOWS
-
-F7 (history window); [Up / Down] Arrow (history)
-
-CODE
-
-vstipTool0055
-
-Many people like to use the command prompt; I thought we might explore one of the oldest features around: command history.
-
-NOTE
-The following examples will not work unless you have typed some commands into the Command Window already, so type a few commands and then clear the screen by typing cls and pressing Enter.
-
-There are two main ways to get commands you’ve typed in previously. First, you can just press the Up Arrow key to start going through your history at the prompt itself.
-
-
-The advantage here is that you can quickly edit the command to change it if needed. However, if you just want to run a command from your history, you can use a very old trick by pressing F7.
-
-
-Pressing F7 runs the command you selected from the list by using your Up or Down Arrow keys.
-
-
-
-
-
-03.16 Command Prompt History
-03.17 Command Prompt Tab Completion
-03.18 Undock and Dock a Single Tool Window in a Group
-16h 35m remaining
-03.17 Command Prompt Tab Completion
-WINDOWS
-
-Tab
-
-CODE
-
-vstipTool0056
-
-When using the Visual Studio command prompt (or any command prompt), you have several ways to use tab completion.
-
-Simple Search
-You can type the first letter of a file, as shown in the following illustration.
-
-
-Then press Tab one or more times to see all the files that begin with that letter.
-
-
-Wildcard Search
-Not as well-known is the ability to use wildcards to match characters. You can use an asterisk (*) to represent any number of characters and a question mark (?) to represent a single character.
-
-So if you want to find a file name that has the letter “a” anywhere in it, you would use *a* as shown in the following illustration.
-
-
-Then press Tab to get the first result.
-
-
-Press Tab several times, and notice that each file name listed contains the letter “a” somewhere in it.
-
-What about a two-letter file that begins with a “c” but can have any other character and any extension? Use c?.* and press Tab.
-
-
-Press Tab again.
-
-
-This feature extends to any commands you want to use as well. You can type something like edit *a*, as shown in the following illustration.
-
-
-Then press Tab to see the following result:
-
-
-If I keep pressing tab, it continues to cycle through all file names that contain an “a”.
-
-Finally
-As you can see, tab completion is a very useful and powerful feature with the command prompt. You definitely want this skill in your tool belt.
-
-
-
-
-
-03.17 Command Prompt Tab Completion
-03.18 Undock and Dock a Single Tool Window in a Group
-03.19 Understanding Commands: Simple Commands
-16h 35m remaining
-03.18 Undock and Dock a Single Tool Window in a Group
-DEFAULT
-
-[no shortcut]
-
-VISUAL BASIC 6
-
-[no shortcut]
-
-VISUAL C# 2005
-
-[no shortcut]
-
-VISUAL C++ 2
-
-Alt+F6 (dock)
-
-VISUAL C++ 6
-
-[no shortcut]
-
-VISUAL STUDIO 6
-
-[no shortcut]
-
-WINDOWS
-
-Alt,–, F (float, VS2010 Only); Alt,–, K (dock, VS2010 Only); Alt, W, F (float); Alt, W, K (dock)
-
-MENU
-
-Window | Float; Window | Dock
-
-COMMAND
-
-Window.Float; Window.Dock
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipTool0099
-
-Docking and undocking tool windows is a common activity. In this tip, we look at the different techniques you can use to accomplish these tasks.
-
-Undock
-You have multiple ways to undock a single tool window in a group.
-
-Click and drag
-With the mouse, you can click and drag the tab out of the group.
-
-
-Menu
-With the tool window active, you can select Window | Float from the menu bar, as shown in the following illustration.
-
-
-Control box (Visual Studio 2010 only)
-Press Alt+minus (–) to get the tool window menu.
-
-
-Then press “F” to make the tool window float.
-
-Result
-Whichever method you use, the result is the same: You wind up with an undocked tool window.
-
-
-Dock
-To dock a floating tool window back into a group (assuming it came from a group), you also have multiple options.
-
-Click and drag
-By far, the hardest option is to click and drag the tool window back into the group. The best way to do this is to drag the tool window title bar over the title bar of another tool window in the group you want it to join, as shown in the following illustration.
-
-
-Notice how the target shading looks like a tab being put onto the existing group? That is what you look for when doing it this way. Of course, I would do it this way only if I were taking a tab from one group to another, not if I were returning a floating tool window back to its original group.
-
-Menu
-The menu option is pretty easy: Just go to Window | Dock, as shown in the following illustration.
-
-
-Control box (Visual Studio 2010 only)
-And then there is the Control menu. Press Alt+minus (–) to get the menu.
-
-
-Then press “K” to make the tool window dock back to its original location.
-
-Result
-You can use any of these methods to put the tool window back into the group it came from, with the notable exception of the click and drag method, which can be used to put the tool window anywhere.
-
-
-
-
-
-
-03.18 Undock and Dock a Single Tool Window in a Group
-03.19 Understanding Commands: Simple Commands
-03.20 Understanding Commands: Aliases
-16h 35m remaining
-03.19 Understanding Commands: Simple Commands
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipTool0067
-
-Just about everything you do in Visual Studio comes with an associated command. But what exactly is a command?
-
-According to the MSDN documentation (http://msdn.microsoft.com/en-us/library/kcc7tke7.aspx), commands “allow direct interaction with the integrated development environment (IDE) from the keyboard. Dialog boxes, windows, and other items within the IDE have a command equivalent that you can type into the Command window or Find/Command box to display and, in some cases, execute the item.”
-
-In plain English, commands allow you to perform actions in Visual Studio. Let’s take adding a class as an example.
-
-First, let’s examine the typical way you add a class. Normally, you would just go to Project | Add Class.
-
-
-Obviously, this command is used to add a new class to your project and shows the Add New Item dialog box.
-
-
-That’s too much extra work for something I like to use all the time. I want to search and see whether a specific command is associated with this action. To do this, I’ll use what most people refer to as the “command well,” because it is a deep “well” of commands. It’s where all the commands that you can use are located. To get there, go to Tools | Options | Environment | Keyboard, as shown in the following illustration
-
-NOTE
-For this example, I’m using the General keyboard settings, so your settings might have a shortcut key assigned already. You can still follow this tip to create a new shortcut.
-
-
-I’ll type a keyword in the Show Commands Containing area to narrow down the command list. In this case, the keywords Add Class are used in the menu item, so I will use them here. In the following illustration, you can see how I have removed the spaces for the command.
-
-
-Notice that among the available commands is the Project.AddClass command. It’s common to find a command that follows the menu structure, and this one is no exception.
-
-
-Also notice that no shortcuts are associated with the command. We can now add one. For this example, let’s use Ctrl+M, Ctrl+7 as the shortcut key to be assigned.
-
-
-For now, I won’t get into the nuances of assigning shortcut keys, but you can get the details at vstipTool0063, 03.26 Keyboard Shortcuts: Creating New Shortcuts, page 127. Assuming the key was assigned correctly, you can click OK and then press Ctrl+M, Ctrl+7 to see the Add New Item dialog box pop up, as shown in the following illustration.
-
-
-Now you understand the power of commands. They can be quite useful, and after you assign a shortcut key, you can see it in the menu as well (if applicable).
-
-
-
-
-
-
-03.19 Understanding Commands: Simple Commands
-03.20 Understanding Commands: Aliases
-03.21 Understanding Commands: Arguments and Switches
-16h 35m remaining
-03.20 Understanding Commands: Aliases
-DEFAULT
-
-Ctrl+Alt+A
-
-VISUAL BASIC 6
-
-Ctrl+Alt+A
-
-VISUAL C# 2005
-
-Ctrl+Alt+A; Ctrl+W, A; Ctrl+W, Ctrl+A
-
-VISUAL C++ 2
-
-Ctrl+Alt+A
-
-VISUAL C++ 6
-
-Ctrl+Alt+A
-
-VISUAL STUDIO 6
-
-Ctrl+Alt+A
-
-WINDOWS
-
-Alt,V, E, C
-
-MENU
-
-View | Other Windows | Command Window
-
-COMMAND
-
-View.CommandWindow
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipTool0068
-
-It is sometimes cumbersome to type in a full command. You can use aliases to quickly use a command without having to type in the full command syntax. If you want a list of the current aliases, just open the Command Window (Ctrl+Alt+A) and type alias.
-
-
-By the way, you can clear the Command Window out at any time by typing cls, just in case you get a lot of clutter in the window.
-
-Let’s take a simple alias as an example. How about the “Debug.ToggleBreakpoint” command? Notice in the preceding list that the alias is “bp”. Let’s find a line of code.
-
-
-Now we can go to the Command Window and type bp, as shown in the following illustration.
-
-
-It puts a breakpoint on the line.
-
-
-Create a New Alias
-In addition to the aliases that are already there, you can create new ones. Let’s create one for the Project.AddClass command. Simply type alias [alias to use] [command]. In our case, let’s put in alias ac Project.AddClass, as shown in the following illustration.
-
-
-Anytime we want to add a class, we can type the command alias ac and get the Add New Item dialog box.
-
-
-Viewing Assigned Aliases
-To show what command an alias is assigned to, just type alias [alias]. So, in this case, I would put in alias ac to see what command “ac” is bound to.
-
-
-Delete an Alias
-To get rid of an alias, type alias [alias] /d[elete]. To get rid of the alias we just made, we would type alias ac /d.
-
-
-You can confirm the alias is gone by typing alias ac. You should see the result shown in the following illustration.
-
-
-
-
-
-
-03.20 Understanding Commands: Aliases
-03.21 Understanding Commands: Arguments and Switches
-03.22 Testing a Command
-16h 35m remaining
-03.21 Understanding Commands: Arguments and Switches
-DEFAULT
-
-Ctrl+Alt+A
-
-VISUAL BASIC 6
-
-Ctrl+Alt+A
-
-VISUAL C# 2005
-
-Ctrl+Alt+A; Ctrl+W, A; Ctrl+W, Ctrl+A
-
-VISUAL C++ 2
-
-Ctrl+Alt+A
-
-VISUAL C++ 6
-
-Ctrl+Alt+A
-
-VISUAL STUDIO 6
-
-Ctrl+Alt+A
-
-WINDOWS
-
-Alt,V, E, C
-
-MENU
-
-View | Other Windows | Command Window
-
-COMMAND
-
-View.CommandWindow
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipTool0069
-
-Some commands take arguments and switches so that you can quickly execute them without having to deal with user interface elements. You can get a list of commands that take arguments by going to the MSDN Documentation article entitled “Visual Studio Commands with Arguments,” at http://msdn.microsoft.com/en-us/library/c338aexd.aspx.
-
-The best way to learn is by doing, so let’s use the Edit.Find command. If you want to know more about what Find can do, take a look at vstipFind0007, 05.02 Using Quick Find, on page 172.
-
-Basic Use
-First, open up the Command Window (Ctrl+Alt+A) and run the command without any arguments, as shown in the following illustration.
-
-
-The preceding command opens the Find And Replace dialog box, shown in the following illustration.
-
-
-Arguments and Switches
-According to the “Find Command” documentation at http://msdn.microsoft.com/en-us/library/295dhke9.aspx, the Edit.Find command takes one argument and 12 possible switches. The general syntax for the command is as follows:
-
-Edit.Find findwhat [/case] [/doc | /proc | /open | /sel] [/markall] [/options] [/reset] [/
-up] [/wild | /regex] [/word]
-I’ll resist the urge to copy and paste from the documentation here and just focus on the items we are going to use.
-
-Argument
-findwhat—Required. The text to match.
-
-Switches
-/doc or /d—Optional. Searches the current document only. You can use only one of the available search scopes: /doc, /proc (procedure), /open (all open documents), or /sel (current selection).
-
-/markall or /m—Optional. Places a [bookmark] on each line that contains a search match within the current document.
-
-/wild or /l—Optional. Uses predefined special characters in the findwhat argument as notations to represent a character or sequence of characters.
-
-List Current Options
-You can list out the current options that are set for the Edit.Find command by typing Edit.Find /options, as shown in the following illustration.
-
-
-Reset Options
-You can reset the options to the default values by typing Edit.Find /reset.
-
-
-Using the Arguments and Switches
-Let’s put this command to the test. We want to bypass the Quick Find dialog box and just find things. We will use the following command:
-
-Edit.Find *c* /wild /doc /markall
-This command finds any line in the current document (/doc) that has the letter “c” anywhere in it, using wildcards (/wild) and placing a bookmark (/markall) on each line.
-
-The following illustration shows the code we are going to use before we run the command.
-
-
-We run our command.
-
-
-The result is shown in the following illustration.
-
-
-And now we have a working command that bypasses the Quick Find dialog box and just finds things.
-
-Make an Alias
-What if we want to use this all the time? We can make an alias out of the command. In this case, we type alias findc Edit.Find *c* /wild /doc /markall, as shown in the following illustration.
-
-
-More information on aliases can be found in vstipTool0068 (03.20 Understanding Commands: Aliases, page 113). You can double-check the alias assignment by typing alias findc.
-
-
-From now on, you just type findc in the Command Window, and it performs the predefined search.
-
-
-
-
-
-03.21 Understanding Commands: Arguments and Switches
-03.22 Testing a Command
-03.23 Understanding Commands: Running Commands
-16h 35m remaining
-03.22 Testing a Command
-DEFAULT
-
-Ctrl+Alt+A
-
-VISUAL BASIC 6
-
-Ctrl+Alt+A
-
-VISUAL C# 2005
-
-Ctrl+Alt+A; Ctrl+W, A; Ctrl+W, Ctrl+A
-
-VISUAL C++ 2
-
-Ctrl+Alt+A
-
-VISUAL C++ 6
-
-Ctrl+Alt+A
-
-VISUAL STUDIO 6
-
-Ctrl+Alt+A
-
-WINDOWS
-
-Alt,V, E, C
-
-MENU
-
-View | Other Windows | Command Window
-
-COMMAND
-
-View.CommandWindow
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipTool0065
-
-Throughout these tips, I include the command when available. But you might be wondering how to test a command to see how it works. Let’s take a look at one quick way.
-
-First, figure out what command you want to test. In our case, let’s test “View.ViewCode”.
-
-Press Ctrl+Alt+A to bring up the Command Window.
-
-
-Because we’re testing “ViewCode”, we have a Design window open so that it can switch to the code. Now start typing the command we want to test (case doesn’t matter).
-
-
-As you can see in the preceding illustration, we have IntelliSense helping us with the command. Now we just press Enter to see the command in action.
-
-
-Now you have tested a command. Feel free to try various commands to see what they do, but make sure to set up the context as we did in this example to ensure that the command works properly. Some commands can’t be run from the Command Window and might require that you assign a shortcut key or use the Find Combo box.
-
-
-Refer to vstipTool0070 (03.23 Understanding Commands: Running Commands, on the next page) for more information.
-
-
-
-
-
-03.22 Testing a Command
-03.23 Understanding Commands: Running Commands
-03.24 Find Keyboard Shortcuts
-16h 35m remaining
-03.23 Understanding Commands: Running Commands
-DEFAULT
-
-Ctrl+Alt+A (command window); Ctrl+Alt+I (immediate window); Ctrl+/ (find combo box with command symbol)
-
-VISUAL BASIC 6
-
-Ctrl+Alt+A (command window); Ctrl+Alt+I; Ctrl+G (immediate window); (no shortcut for find combo box)
-
-VISUAL C# 2005
-
-Ctrl+Alt+A; Ctrl+W, A; Ctrl+W, Ctrl+A (command window) Ctrl+Alt+I; Ctrl+D, I; Ctrl+D, Ctrl+I (immediate window) Ctrl+/ (find combo box)
-
-VISUAL C++ 2
-
-Ctrl+Alt+A (command window); Ctrl+Alt+I (immediate window); Ctrl+/ (find combo box with command symbol)
-
-VISUAL C++ 6
-
-Ctrl+Alt+A (command window); Ctrl+Alt+I (immediate window); Ctrl+/ (find combo box with command symbol)
-
-VISUAL STUDIO 6
-
-Ctrl+Alt+A (command window); Ctrl+Alt+I (immediate window); Ctrl+/ (find combo box with command symbol)
-
-WINDOWS
-
-Alt,V, E, C
-
-MENU
-
-View | Other Windows | Command Window; Debug | Windows | Immediate Window
-
-COMMAND
-
-View.CommandWindow; Debug.Immediate; Edit.GoToFindCombo; Tools.GoToCommandLine
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipTool0070
-
-Whenever you work with commands, you have four main ways you can run them. For example, not all commands will run from the Command Window, so it is a good idea to familiarize yourself with the other options. Let’s take a look at each way.
-
-Shortcuts
-The easiest way to run a command is when a shortcut is attached to it. For example, View.Code has a couple of shortcut keys attached to it.
-
-NOTE
-For more information about shortcut keys, see vstipTool0061 (03.24 Find Keyboard Shortcuts, on the next page).
-
-
-Command Window
-The Command Window (Ctrl+Alt+A) is specifically designed to run commands. Just type in the command, and press Enter.
-
-
-Immediate Window
-You can run many commands from the Immediate Window (Ctrl+Alt+I) by typing a greater-than sign (>). Then type any command and press Enter.
-
-
-Find Combo Box
-A little-known feature enables you to run commands from the Find Combo Box (Ctrl+D) on the standard toolbar. Just type a greater-than sign (>), then type any command, and press Enter.
-
-
-For most language settings, you can bypass the typing of the greater-than sign by using Ctrl+Forward Slash (/), which takes you to the Find Combo Box and automatically inserts the sign for you.
-
-
-
-
-
-03.23 Understanding Commands: Running Commands
-03.24 Find Keyboard Shortcuts
-03.25 Keyboard Shortcuts: Additional Mapping Schemes
-16h 35m remaining
-03.24 Find Keyboard Shortcuts
-WINDOWS
-
-Alt,T, O
-
-MENU
-
-Tools | Options | Environment | Keyboard
-
-COMMAND
-
-Tools.CustomizeKeyboard
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipTool0061
-
-Ever just want to see the keyboard shortcuts available in Visual Studio? Let’s say, for example, that you want to see if View | Code has any keyboard shortcuts. A quick look at the menu doesn’t reveal anything.
-
-
-But that’s not the end of the story. If we go to Tools | Options | Environment | Keyboard, we get the following dialog box.
-
-
-Pretty much everything you do in Visual Studio has a command that runs to execute that action. In our case, we know that View | Code is the path to the command we want, so let’s start by trying to see whether we have a “View.Code” command. Notice that commands use dot notation between items:
-
-
-Sadly, what we want isn’t there. OK, so either it isn’t there or it’s called something else. We still know it’s off the View menu, so let’s type in View. and browse to see whether anything pops up.
-
-
-If we scroll down far enough, we actually find an entry for “View.ViewCode”. If we look under Shortcuts For Selected Command, we see a couple of shortcut entries, as shown in the following illustration.
-
-
-It looks like pressing F7 in the Designer does the trick, so let’s try it.
-
-
-Go to the Designer and press F7.
-
-
-As we can see in the preceding illustration, we have discovered the shortcut key for viewing code in the Designer.
-
-There is also another entry for the Class Diagram that uses Enter to show us code. Let’s open up a Class Diagram and select a class.
-
-
-Then press Enter.
-
-
-It takes us to the code as well. So now you know how to find shortcut keys (if they exist) for a command.
-
-
-
-
-
-03.24 Find Keyboard Shortcuts
-03.25 Keyboard Shortcuts: Additional Mapping Schemes
-03.26 Keyboard Shortcuts: Creating New Shortcuts
-16h 35m remaining
-03.25 Keyboard Shortcuts: Additional Mapping Schemes
-WINDOWS
-
-Alt,T, O
-
-MENU
-
-Tools | Options | Environment | Keyboard
-
-COMMAND
-
-Tools.CustomizeKeyboard
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipTool0062
-
-One of the most important places you can go in Visual Studio is the Tools | Options | Environment | Keyboard area, shown in the following illustration.
-
-
-In vstipTool0061, 03.24 Find Keyboard Shortcuts, page 122, we looked at how to find shortcut keys for given commands. Now let’s focus on the Apply The Following Additional Keyboard Mapping Scheme drop-down list.
-
-
-This list allows you to apply additional keyboard shortcuts that were common in certain previous versions.
-
-
-Let’s take an example. If we have the default mapping scheme and want to see the shortcuts for View.ViewCode, we see the options presented in the following illustration.
-
-
-However, if we add an additional mapping scheme (Visual C++ 6 in this example), this gets the following result:
-
-
-Notice that we have a new shortcut that wasn’t there before. This is how adding additional mapping schemes work. If you don’t want these additional keys, just set Apply The Following Additional Keyboard Mapping Scheme to Default (or General, if it is available in the list).
-
-
-
-
-
-
-03.25 Keyboard Shortcuts: Additional Mapping Schemes
-03.26 Keyboard Shortcuts: Creating New Shortcuts
-03.27 Keyboard Shortcuts: Reset All Your Shortcuts
-16h 35m remaining
-03.26 Keyboard Shortcuts: Creating New Shortcuts
-WINDOWS
-
-Alt,T, O
-
-MENU
-
-Tools | Options | Environment | Keyboard
-
-COMMAND
-
-Tools.CustomizeKeyboard
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipTool0063
-
-Creating keyboard shortcuts is easy. Let’s walk through an example to show you how. First, go to Tools | Options | Environment | Keyboard.
-
-
-Now let’s assume we want to modify the “View.ViewCode” command to include a new shortcut. Notice the existing shortcuts (assuming no additional keyboard mapping schemes).
-
-
-We want to add Ctrl+Z as the shortcut, so click in the Press Shortcut Keys area and press Ctrl+Z.
-
-
-There is a problem. Looking down at the Shortcut Currently Used By area, we see that Ctrl+Z is already mapped to the Edit.Undo command. Because that is an important key combination to us, let’s try a new set of shortcut keys. How about Ctrl+Alt+4? Just use backspace to get rid of the current entry, and press Ctrl+Alt+4.
-
-
-Perfect. It isn’t being used by anything currently—but we aren’t done yet. We have to decide what scope we want this shortcut to be available in. Notice the drop-down to the left of the new shortcut under Use New Shortcut In? The default scope is global, so you can use it at any time. However, you can narrow the scope down to a specific area.
-
-
-For example, if we wanted to have this shortcut available only when we’re editing XML, we would change Global to XML (Text) Editor. For now, let’s keep the Global setting.
-
-
-After we’ve decided on the scope and the shortcut keys, all we have to do is click Assign, as shown in the preceding illustration, to make the shortcut available.
-
-
-If you mess up here, you can choose the shortcut key and click Remove to start over.
-
-WARNING
-You can remove any shortcut, so be careful to remove only the shortcuts you actually want to eliminate.
-
-Click OK, and let’s go test our new shortcut. Go to Design View in any project.
-
-
-Press Ctrl+Alt+4 to see the following result:
-
-
-It should take you to the code. You now know how to map new keyboard shortcuts.
-
-Reset
-If you make a mistake with your shortcut keys, you can always click the Reset button in Tools | Options | Environment | Keyboard.
-
-
-Don’t take this option lightly. Refer to vstipTool0064 (03.27 Keyboard Shortcuts: Reset All Your Shortcuts, page 131).
-
-
-
-
-
-03.26 Keyboard Shortcuts: Creating New Shortcuts
-03.27 Keyboard Shortcuts: Reset All Your Shortcuts
-03.28 Understanding Commands: Logging Commands
-16h 35m remaining
-03.27 Keyboard Shortcuts: Reset All Your Shortcuts
-WINDOWS
-
-Alt,T, O
-
-MENU
-
-Tools | Options | Environment | Keyboard
-
-COMMAND
-
-Tools.CustomizeKeyboard
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipTool0064
-
-On rare occasions, you might lose track of all the custom shortcuts you have made, or maybe you just want to reset all your shortcuts back to their default settings. You can reset all your keyboard shortcuts by clicking the Reset button in Tools | Options | Environment | Keyboard.
-
-
-When you click this button, you get the following warning message:
-
-
-NOTE
-Take this warning seriously! It resets all keyboard mappings to their default values if you click Yes, so you should use this only if you are sure of the consequences.
-
-The following before-and-after illustrations show what happens after you click Yes in the preceding Warning message.
-
-Before:
-
-
-After:
-
-
-
-
-
-
-03.27 Keyboard Shortcuts: Reset All Your Shortcuts
-03.28 Understanding Commands: Logging Commands
-03.29 Export Your Window Layouts
-16h 35m remaining
-03.28 Understanding Commands: Logging Commands
-COMMAND
-
-log; Tools.LogCommandWindowOutput
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipTool0071
-
-When using commands, sometimes you want to keep a log of the ones you used. This is especially useful when you are experimenting with commands to see what iterations you went through. The syntax for logging is as follows:
-
-log [filename] [/on|/off] [/overwrite]
-Or you can use the following:
-
-Tools.LogCommandWindowOutput [filename] [/on|/off] [/overwrite]
-Arguments
-The following sections describe what the preceding arguments do.
-
-Filename
-It’s highly recommended that you use a path and file name; otherwise, the default file name is cmdline.log and the log file is stored at C:\Users\<user>\AppData\Roaming\Microsoft\VisualStudio\<version>.
-
-
-/on /off
-This argument turns logging on or off.
-
-/overwrite
-By default, all logging operations append to your log file. The /overwrite switch changes this behavior and erases any previous commands from the log when a new log session starts.
-
-Example
-First, type the “log” command in the Command Window (Ctrl+Alt+A) and specify a file name by typing log C:\Users\<user>\Documents\vslog.txt /on, as shown in the following illustration.
-
-
-Now type in a couple of commands. The specific commands don’t matter here, so feel free to substitute your own commands instead of using mine if you like. I used the commands View.ViewCode to get a code window, and I used Edit.Find sys to find some text.
-
-
-At this point, you’re done typing comments. Turn logging off by using the log /off command.
-
-
-Now browse to the My Documents folder to see the file.
-
-
-If you open the file, you should see something similar to the following:
-
-
-As you can see, the file contains a running log of the commands you entered, including the last command to turn logging off.
-
-
-
-
-
-03.28 Understanding Commands: Logging Commands
-03.29 Export Your Window Layouts
-03.30 Stop the Toolbox from Auto-Populating from the Solution
-16h 35m remaining
-03.29 Export Your Window Layouts
-WINDOWS
-
-Alt,T, I
-
-MENU
-
-Tools | Import and Export Settings
-
-COMMAND
-
-Tools.ImportandExportSettings
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipEnv0040
-
-After you get your tool and document windows just the way you want them inside Visual Studio, you want to be able to get those settings back if anything goes wrong.
-
-You can export just your window layouts by going to Tools | Import And Export Settings and choosing Export Selected Environment Settings, and then click Next.
-
-
-Now clear the All Settings check box.
-
-
-Go to General Settings, select Window Layouts, and then click Next.
-
-
-Give the .vssettings file a name and a location to be saved into, click Finish, and then click Close.
-
-
-You now can import these settings (see vstipEnv0022, 01.08 Importing or Changing Your Environment Settings, in Appendix B [http://go.microsoft.com/FWLink/?Linkid=223758]) whenever you want to get your preferred layouts.
-
-
-
-
-
-03.29 Export Your Window Layouts
-03.30 Stop the Toolbox from Auto-Populating from the Solution
-03.31 Using External Tools
-16h 35m remaining
-03.30 Stop the Toolbox from Auto-Populating from the Solution
-WINDOWS
-
-Alt,T, O
-
-MENU
-
-Tools | Options | Windows Forms Designer
-
-COMMAND
-
-Tools.Options
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipTool0090
-
-If you find that the Toolbox is taking a long time scanning a solution with a lot of projects in it, you can keep it from doing this.
-
-Just go to Tools | Options | Windows Forms Designer, and set AutoToolboxPopulate to False.
-
-
-To display custom items when AutoToolboxPopulate is set to False, you can select Choose Items from the Toolbox context menu and add the items manually to the Toolbox.
-
-
-People often set this to False accidentally. If you find your controls are not automatically showing up in the Toolbox, setting this to True might solve the problem.
-
-
-
-
-
-03.30 Stop the Toolbox from Auto-Populating from the Solution
-03.31 Using External Tools
-03.32 Create Keyboard Accelerators for External Tools
-16h 35m remaining
-03.31 Using External Tools
-WINDOWS
-
-Alt,T, E
-
-MENU
-
-Tools | External Tools; Tools | [external tool of choice]
-
-COMMAND
-
-Tools.ExternalTools
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipTool0059
-
-You can run external tools by going to the Tools menu and running your external tool of choice, as shown in the following illustration.
-
-
-If you want to add additional external tools, you can go to Tools | External Tools.
-
-
-As an example, let’s add the Visual Studio command prompt to our external tools list. First, click Add and put in a Title of Visual Studio Command Prompt.
-
-
-In this case, the Visual Studio command prompt has an icon that we can use to get the information we need. Let’s go to its properties.
-
-
-After you click Properties, you see the following dialog box.
-
-
-As you can see, the Target field points to %comspec%, with some arguments after it. The variable %comspec% points to the command prompt on the current Windows system and can be used on just about any version of Windows. Let’s put that into the Command field for our purposes.
-
-
-If you weren’t using a system variable like this, you could type in the path to the command or use the ellipsis and browse.
-
-
-For the Arguments field, again, let’s just take from the Visual Studio command prompt properties and enter the path shown in the following illustration.
-
-
-If you want to add items specific to Visual Studio, you can click the arrow to the right and get a large list of variables you can insert as arguments.
-
-
-The Initial Directory lets you define where you want to start up. I don’t have a preference here, so I will leave it blank, but I could type in a path or use one of the variables available to me by clicking on the arrow to the right of the Initial Directory field.
-
-
-Finally, you can choose from several options at the bottom.
-
-
-Use Output Window
-Selecting this option runs the command and puts any output into the Output window. This is useful for commands that just return some data you want to look at. For our command prompt, this wouldn’t be a good choice because we want to type in commands.
-
-Treat Output As Unicode
-If your tool returns Unicode output, you would select this check box.
-
-Prompt For Arguments
-This option shows a dialog box that enables you to modify the arguments before the command is run or to put in completely new arguments.
-
-
-Close On Exit
-Selecting this option determines whether the window should close when the tool closes. In the case of our command prompt, with this option checked when we type exit and press Enter, the window closes. However, if this option is not checked and we do the same thing, we get the result shown in the following illustration.
-
-
-When you are all done, just click OK, and you now have your command showing up in the external tools list off the Tools menu.
-
-
-
-
-
-
-03.31 Using External Tools
-03.32 Create Keyboard Accelerators for External Tools
-03.33 Exporting Your Command Window Aliases and External Tools List
-16h 35m remaining
-03.32 Create Keyboard Accelerators for External Tools
-WINDOWS
-
-Alt,T, E
-
-MENU
-
-Tools | External Tools
-
-COMMAND
-
-Tools.ExternalTools
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipTool0093
-
-In vstipTool0059 (03.31 Using External Tools, page 136), I showed you how to add external tools to the Visual Studio Tools menu).
-
-
-After you create an entry, you probably want to have an accelerator key assigned so that you can use your keyboard to activate the new tool. First, you can see what these keys look like by going to the Tools menu, using your keyboard (Alt+T).
-
-
-Now you can press any letter that is underlined to access that item. For example, if the letter “G” if pressed, it opens up the Create GUID tool. You can see how this is created by going to Tools | External Tools on the menu bar.
-
-
-Notice the ampersand (&) before the “G” in “GUID”? Anytime you put an ampersand before any character in your title, the next character after it becomes the accelerator key. As you can see, all these entries have accelerator keys assigned to them. Now you can create special keys for your external tools access.
-
-
-
-
-
-03.32 Create Keyboard Accelerators for External Tools
-03.33 Exporting Your Command Window Aliases and External Tools List
-03.34 Creating and Using a Macro
-16h 35m remaining
-03.33 Exporting Your Command Window Aliases and External Tools List
-WINDOWS
-
-Alt,T, I
-
-MENU
-
-Tools | Import and Export Settings
-
-COMMAND
-
-Tools.ImportandExportSettings
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipEnv0043
-
-As you probably know, you can export just about any setting you want. Usually, you export several settings together. However, when it comes time to import settings, the following two settings do not get imported by default: Command Window Aliases and External Tools List:
-
-
-Sometimes, when importing, users just click through the wizard and forget this is the case. For this reason, it might be a good idea to make sure that you have these two settings exported separately as an extra copy. Then you can just import these settings as needed.
-
-To do this, just go to Tools | Import And Export Settings and select Export Selected Environment Settings:
-
-
-Click Next, clear the All Settings check box, and then select the Command Window Aliases and External Tools List check boxes:
-
-
-From here, just complete the wizard normally and make sure to give your exported file a logical name, such as Command Aliases and External Tools List.note
-
-Get Link
-link
-table of contents
-search
-Settings
-
-
-
-
-
-03.33 Exporting Your Command Window Aliases and External Tools List
-03.34 Creating and Using a Macro
-03.35 Visual Studio Image Library
-16h 35m remaining
-03.34 Creating and Using a Macro
-DEFAULT
-
-Ctrl+Shift+R (record/stop recording); Ctrl+Shift+P (run)
-
-VISUAL BASIC 6
-
-[no shortcut] (record/stop recording); [no shortcut] (run)
-
-VISUAL C# 2005
-
-Ctrl+Shift+R (record/stop recording); Ctrl+Shift+P (run)
-
-VISUAL C++ 2
-
-Ctrl+Shift+R (record/stop recording); Ctrl+Shift+P (run)
-
-VISUAL C++ 6
-
-Ctrl+Shift+R (record/stop recording); Ctrl+Shift+P (run)
-
-VISUAL STUDIO 6
-
-[no shortcut] (record/stop recording)
-
-WINDOWS
-
-Alt,T, M, C (record / stop recording); Alt,T, M, R (run)
-
-MENU
-
-Tools | Macros | Record Temporary Macro; Tools | Macros | Run Temporary Macro; Tools | Macros | Save Temporary Macro
-
-COMMAND
-
-Tools.RecordTemporaryMacro; Tools.RunTemporaryMacro; Tools.SaveTemporaryMacro
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipEnv0055
-
-You can record macros to do just about anything in Visual Studio. In this example, we create a macro that adds a new class to our project. First, create a new project. For this example, create a Console Application:
-
-
-Now we are going to add a class to the project and give the class a name. When we do this, we will record the actions into a temporary macro by pressing Ctrl+Shift+R. You should see the following status in the lower-left corner:
-
-
-Add a new class (Ctrl+Shift+A) called Bubba.cs:
-
-WARNING
-You can run into numerous little “gotchas” when creating macros. One that took me a little while to figure out was leaving off the “.cs” at the end of the file name. For some reason, Visual Studio doesn’t like that at all. Keep an eye out for little things like that as you use this feature.
-
-
-Add a comment to the class:
-
-
-Stop recording (Ctrl+Shift+R), and then go to Tools | Macros | Save Temporary Macro. Name the macro MakeBubba in the Macro Explorer:
-
-
-Now we can test out our new macro by creating a new project and going to the Macro Explorer (Alt+F8). Right-click the MakeBubba macro, and choose Run:
-
-
-It should make the new class and put your comment in:
-
-
-After you have created your macro, you might want to see the code behind it. You can go to the Macro Explorer (Alt+F8), right-click any macro, and then choose Edit to see the code. Here is what my code (cleaned up a bit) looks like for the macro we just made:
-
-
-Notice that it is fairly easy to read and understand, which makes it easy to edit as well. Now that you have a working macro, you should visit vstipTool0066 (AX.37 Create a Shortcut Key for a Macro, in Appendix B [http://go.microsoft.com/FWLink/?Linkid=223758]) and create a shortcut key for it.
-
-
-
-
-
-03.34 Creating and Using a Macro
-03.35 Visual Studio Image Library
-4. Working with Documents
-16h 35m remaining
-03.35 Visual Studio Image Library
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipEnv0049
-
-As a developer, you are always looking for images that can be used in your applications. Visual Studio comes with a set of images to help you out. In fact, it comes with over 2000 output files, images ready for immediate use, as well as a variety of source files that you can use to create your own images if needed. These images come from Microsoft Windows, the Office system, Microsoft Visual Studio, and other Microsoft software.
-
-You can find them in a .zip file located at “C:\Program Files\Microsoft Visual Studio <version>\Common7\VS<version>ImageLibrary\1033.” For example, I found my images at “C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\VS2010ImageLibrary\1033”:
-
-
-Types of Files
-The Visual Studio Image Library folders contain source files and output files.
-
-Source files
-Source files contain building blocks intended for use with an image editor to generate new or to customize existing icons.
-
-
-Output files
-Typically, output files are composite images made up of a base concept with 1–3 adorners, ready for immediate use by developers.
-
-
-Image Library Contents
-The following illustration provides an idea of what is included in the Visual Studio Image Library and what each group of images is used for:
-
-
-_Common Elements
-Have you ever tried to edit an existing image that is made up of several overlapping elements? Then you know how hard it is to make simple changes in an output file. In this section, each source file is made up of various sizes of each element on a transparent background. When used with an image editor that utilizes layers, such as Adobe Photoshop or Paint.NET, you can choose the size of an element that fits best with what you’re trying to do and then make adjustments by layering the pieces, moving them around without editing the bits that are in the lower layers.
-
-
-When the final image is composed just the way you like it, you can then flatten and save the file in a usable format such as .ico, .bmp, or .png. A typical use of source files would be to take an existing image and add an adorner from the _Common Elements source files, such as adding a “new” star to the upper left to indicate a command that creates a new item of that base type:
-
-
-Actions
-The Actions folder set contains output file images that represent verbs. Most commands are verbs, so if you are building a toolbar or ribbon, you would find most of those images in the Actions folder. In the Visual Studio Image Library, the Actions images are separated by format (24-bit, 32-bit, .ico, and .png), size (16x16, 24x24, 32x32), and style (Office/Visual Studio, DataTools, Windows Vista, and Windows XP).
-
-
-
-Use the format that works best within your code; 24-bit .bmp files use a fuchsia color that you can map to the background color of your user interface so that it appears to have a transparent background; 32-bit .bmp files contain a transparent background, although in File Explorer it appears black, and .ico and .png files have transparent backgrounds as well. Also, each style is illustrated differently, so generally, you should choose one style and stay consistent, not mixing different styles in the same user interface.
-
-Animations
-This folder contains a few of the common animations that you see in Windows and that are used in dialog boxes or other user interface elements to indicate that a process is underway. You have .avi and .gif formats available for most of the animations; which format you use will be determined by which format is best supported by the technology you’re using for your user interface.
-
-
-Annotations_Buttons
-The Annotations_Buttons folder contains images for notifications, simple actions such as expand/collapse, or to describe the state of an object or process—for example, running, paused, or offline. This group of files is also separated out by format (24-bit .bmp, .ico, and .png) as well as style. Notice that the Windows Vista .ico annotations contain the full range of sizes that can be viewed in the File Explorer and appear correctly in accordance with the size required by your user interface.
-
-
-Objects
-Objects are output image files representing nouns. Because they represent objects, the most common usage for these files is in tree views, list views, or containers such as toolboxes. When used in this way, these images enable the user to scan a list of elements and to identify types of objects without needing to read the name of the item. Sometimes objects can also represent commands, such as a command to create a new object of that type (New File) or to launch a user interface element related to that object (for example, a stopwatch image used to indicate Start Timer).
-
-
-In the png_format Windows Vista folder, you can find a wide variety of sizes and colors of various flags, arrows, +/- signs, and so forth, which can be used to indicate a variety of meanings. Generally, Object images are used as base elements when creating a new compound icon. Base elements augmented by annotations or other actions/object images can indicate the state or type of the base image and form a visual language when used with variations of similar icons:
-
-
-Using the Images
-The images are meant to be used for their original intent. So, for example, you can’t use the Paste image for something other than a paste operation. When you are using or creating these images, it is important that you make sure to use the images in a manner that is consistent with the description of the respective image in the readme document found in its respective folder:
-
-
-back
-
-
-
-
-
-03.35 Visual Studio Image Library
+The Visual Studio Image Library offers a wide range of images for developers to enhance the visual appeal and functionality of their applications.
