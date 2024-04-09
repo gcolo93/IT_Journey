@@ -1,7 +1,3 @@
-
-6. Writing Code
-06.01 Zoom In or Out of Text in the Editor Using the Mouse Wheel
-16h 24m remaining
 Chapter 6. Writing Code
 “We will never be rid of code, because code represents the details of the requirements. At some level those details cannot be ignored or abstracted; they have to be specified. And specifying requirements in such detail that a machine can execute them is programming. Such a specification is code.”
 
@@ -10,14 +6,6 @@ Writing code and debugging code are the two activities we tend to do more than a
 
 As you are reading, make sure to pay particular attention to the new IntelliSense and box selection improvements. In my travels, thousands of people have found these particularly useful for daily work. Also, take some time to review the tips on code snippets and discover how they can accelerate your code writing.
 
-
-
-
-
-6. Writing Code
-06.01 Zoom In or Out of Text in the Editor Using the Mouse Wheel
-06.02 Zoom In or Out of Text in the Editor
-16h 24m remaining
 06.01 Zoom In or Out of Text in the Editor Using the Mouse Wheel
 WINDOWS
 

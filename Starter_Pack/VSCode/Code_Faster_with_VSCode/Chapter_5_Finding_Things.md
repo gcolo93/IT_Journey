@@ -1,1557 +1,844 @@
+**Chapter 5: Finding Things**
 
-5. Finding Things
-05.01 Repeat Your Last Search
-16h 24m remaining
-Chapter 5. Finding Things
-“I am in hopes, then, that we may find the object of our search thus. I imagine that our state, being rightly organized, is a perfectly good state.”
+- **Introduction:**
+  - Describes the frustration of not being able to find something in code.
+  - Emphasizes the importance of efficient search features in Visual Studio for effective code navigation and development.
 
-— Plato “The Republic”
-It’s very frustrating when you are looking for something in your code and can’t find it. This can range from a simple method definition to a complex set of classes in the .NET Framework, and everything in between. This chapter explores how to use the various search features in Visual Studio.
+- **Quote:**
+  - "I am in hopes, then, that we may find the object of our search thus. I imagine that our state, being rightly organized, is a perfectly good state." - Plato, "The Republic"
 
-The ability to find information and then act on that information in some way is one of the central keys to creating good code. When we search for or replace code with complex criteria, our mastery of the various Find dialog boxes becomes the difference between a few minutes or several hours of work.
+- **Key Points:**
+  - Efficient code navigation is crucial for software development.
+  - Mastery of search features saves time and enhances productivity.
 
+- **Topics Covered:**
+  - Different types of searches in Visual Studio.
+  - Techniques for finding specific code elements.
+  - Strategies for replacing code.
 
+- **Purpose:**
+  - Provides guidance on using Visual Studio's search features effectively.
+  - Aims to improve developers' ability to navigate and manage code efficiently.
+  - Enhances productivity and reduces frustration by enabling quick and accurate code location and modification.
 
+**05.01 Repeat Your Last Search**
 
+- **Default Shortcuts:**
+  - F3 (next)
+  - Shift+F3 (previous)
 
-5. Finding Things
-05.01 Repeat Your Last Search
-05.02 Using Quick Find
-16h 24m remaining
-05.01 Repeat Your Last Search
-DEFAULT
+- **Versions Supported:**
+  - 2005, 2008, 2010
 
-F3 (next); Shift+F3 (previous)
+- **Command:**
+  - Edit.FindNext
+  - Edit.FindPrevious
 
-VISUAL BASIC 6
+- **Purpose:**
+  - Quickly repeat the last find operation.
+  - Enables efficient navigation through search results.
 
-F3 (next); Shift+F3 (previous)
+- **Steps:**
+  1. Verify that the last Find operation appears in the Find combo box on the Standard toolbar.
+  2. Press F3 to move to the next occurrence of the search term, or Shift+F3 to move to the previous occurrence.
+  3. Continue pressing the respective shortcut keys as needed to navigate through the search results and locate the desired content.
 
-VISUAL C# 2005
+**05.02 Using Quick Find**
 
-F3 (next); Shift+F3 (previous)
+- **Default Shortcut:**
+  - Ctrl+F
 
-VISUAL C++ 2
+- **Versions Supported:**
+  - 2005, 2008, 2010
 
-F3 (next); Shift+F3 (previous)
+- **Command:**
+  - Edit.Find
 
-VISUAL C++ 6
+- **Purpose:**
+  - Provides a quick and versatile way to find specific content within code.
+  - Offers various search options and customization for efficient navigation.
 
-F3 (next); Shift+F3 (previous)
+- **Steps:**
+  1. Press Ctrl+F to open Quick Find, a tool window that can be moved and docked like other tool windows.
+  2. Choose the type of find operation from the Quick Find drop-down menu:
+     - **Find What:** Enter the search term manually or select from previous searches.
+     - **Look In:** Determine the scope of the search, such as the current document, project, or solution.
+     - **Find Options:** Customize the search with options like matching case, whole word, searching up, and using regular expressions or wildcards.
+  3. Optionally, utilize the Expression Builder button for advanced search options when using regular expressions or wildcards.
+  4. Use the **Find Next** button to navigate to the next instance of the search term.
+  5. Consider using the **Bookmark All** button to place bookmarks at all locations where the search term is found, with caution due to potential bookmark overload.
 
-VISUAL STUDIO 6
+**05.03 Using a Simple Quick Replace**
 
-F3 (next); Shift+F3 (previous)
+- **Default Shortcut:**
+  - Ctrl+H
 
-WINDOWS
+- **Versions Supported:**
+  - 2005, 2008, 2010
 
-[no shortcut]
+- **Command:**
+  - Edit.Replace
 
-COMMAND
+- **Purpose:**
+  - Facilitates quick and simple find and replace operations within code.
 
-Edit.FindNext; Edit.FindPrevious
+- **Steps:**
+  1. Press Ctrl+H to open Quick Replace, a tool window similar to Quick Find.
+  2. Choose the type of replace operation from the Quick Replace drop-down menu.
+     - **Find What:** Enter the search term to find.
+     - **Replace With:** Enter the replacement text.
+     - **Look In:** Determine the scope of the search.
+     - **Find Options:** Customize the search criteria.
+  3. Use the **Find Next** button to navigate to the next instance of the search term.
+  4. Use the **Replace** button to replace the currently selected instance.
+  5. Use the **Replace All** button to replace all instances of the search term throughout the document or scope.
+  6. Pay attention to the confirmation dialog after using Replace All to ensure the expected number of replacements was made.
 
-VERSIONS
+**05.04 Hide the Quick Find and Quick Replace Tool Window After the First Match**
 
-2005, 2008, 2010
+- **Shortcut to Access Options:**
+  - Alt, T, O
 
-CODE
+- **Menu Path:**
+  - Tools | Options | Environment | Find and Replace
 
-vstipFind0004
+- **Versions Supported:**
+  - 2005, 2008, 2010
 
-After you perform a Find operation, you can quickly repeat that find. The following steps show you how.
+- **Code Reference:**
+  - vstipFind0010
 
-Verify that your last Find shows up in the Find combo box on the Standard toolbar (usually located toward the upper right of your screen).
+- **Purpose:**
+  - Enables the option to automatically hide the Quick Find or Quick Replace tool window after the first match is found.
 
+- **Steps:**
+  1. Navigate to Tools | Options | Environment | Find and Replace.
+  2. Check the box labeled "Hide Find And Replace Window After A Match Is Located For Quick Find Or Quick Replace".
 
-Press F3 (next) or Shift+F3 (previous) to move through the results.
+- **Note:**
+  - This feature can be useful for improving workflow efficiency, especially when you want to continue using shortcut keys after the first match is found.
 
-Continue pressing F3 (next) or Shift+F3 (previous) as needed to find what you are looking for.
+**05.05 Undo Quick Replace and Replace in Files**
 
+- **Default Shortcut:**
+  - Ctrl+Z; Alt+Backspace
 
+- **Menu Path:**
+  - Edit | Undo
 
+- **Command:**
+  - Edit.Undo
 
+- **Versions Supported:**
+  - 2005, 2008, 2010
 
-05.01 Repeat Your Last Search
-05.02 Using Quick Find
-05.03 Using a Simple Quick Replace
-16h 24m remaining
-05.02 Using Quick Find
-DEFAULT
+- **Code Reference:**
+  - vstipFind0020
 
-Ctrl+F
+- **Purpose:**
+  - To undo changes made through Quick Replace or Replace in Files operations.
 
-VISUAL BASIC 6
+- **Steps to Undo Quick Replace:**
+  1. Press Ctrl+Z or Alt+Backspace to undo changes made through Quick Replace.
+  2. The changes made by the Quick Replace operation will be reversed.
+
+- **Conditions for Undo:**
+  - For Quick Replace:
+    - After performing a Replace All operation, documents are marked with an asterisk in the file name tab.
+    - Undoing (Ctrl+Z) reverses all the changes made by the Replace All operation.
+
+- **Steps to Undo Replace in Files:**
+  1. After performing a Replace in Files operation, ensure that "Keep Modified Files Open After Replace All" option is unchecked.
+  2. Clicking Replace All without selecting this option will open a dialog box.
+  3. Check the option "Replace All Will Open All Files With Changes For Editing" to enable undoing of all changes.
+  4. Press Ctrl+Z or Alt+Backspace to undo changes made by Replace in Files.
+  5. The changes made through Replace in Files operation will be reversed.
+
+- **Note:**
+  - Undoing Quick Replace and Replace in Files operations is straightforward and allows for reverting changes efficiently.
+
+**05.06 Using the Find Combo Box Keyboard Shortcuts**
+
+- **Versions Supported:**
+  - 2005, 2008, 2010
+
+- **Code Reference:**
+  - vstipFind0019
+
+- **Purpose:**
+  - Utilize keyboard shortcuts associated with the Find Combo Box in Visual Studio for various tasks such as finding strings, running commands, navigating to specific lines or files, and setting breakpoints.
+
+- **Default Keyboard Shortcuts:**
+  - **Find (Ctrl+D):**
+    - Used to find strings.
+  - **Run Command (Ctrl+/):**
+    - Executes commands entered into the Find Combo box.
+  - **Go To Line (Ctrl+G):**
+    - Navigates to a specific line number.
+  - **Go To File (Ctrl+Shift+G):**
+    - Jumps to a specific file within the solution or INCLUDE path.
+  - **Set a Breakpoint (F9):**
+    - Sets breakpoints at the selected function name.
+
+- **Visual Basic 6 Specifics:**
+  - No unique shortcuts; follows the default shortcuts.
+
+- **Visual C# 2005 Specifics:**
+  - Utilizes Ctrl+/ for running commands.
+
+- **Visual C++ 2 Specifics:**
+  - Introduces Alt+A for finding in addition to Ctrl+F.
+
+- **Visual C++ 6 Specifics:**
+  - No unique shortcuts; follows the default shortcuts.
+
+- **Visual Studio 6 Specifics:**
+  - Utilizes Ctrl+Shift+F for finding.
 
-Ctrl+F
+- **Usage:**
+  - Access the Find Combo Box with the designated shortcut.
+  - Enter search terms, commands, line numbers, or file names.
+  - Utilize the respective keyboard shortcuts to execute the desired action:
+    - Find (Ctrl+D)
+    - Run Command (Ctrl+/)
+    - Go To Line (Ctrl+G)
+    - Go To File (Ctrl+Shift+G)
+    - Set a Breakpoint (F9)
+
+- **Additional Notes:**
+  - F9 sets breakpoints only in open documents.
+  - Repeat actions as needed based on search results or commands entered.
+
+**05.07 Using Incremental Search**
 
-VISUAL C# 2005
+- **Versions Supported:**
+  - 2005, 2008, 2010
 
-Ctrl+F
+- **Code Reference:**
+  - vstipFind0001
 
-VISUAL C++ 2
+- **Purpose:**
+  - Utilize incremental search to quickly locate text within the current document without the need for dialog boxes or mouse interaction.
 
-Alt+F3
+- **Default Keyboard Shortcuts:**
+  - **Incremental Search (Ctrl+I):**
+    - Initiates incremental search mode.
+  - **Visual Basic 6 Specifics:**
+    - Uses Alt+I for incremental search.
+  - **Visual C# 2005 Specifics:**
+    - Follows the default Ctrl+I shortcut for incremental search.
+  - **Visual C++ 2 Specifics:**
+    - Follows the default Ctrl+I shortcut for incremental search.
+  - **Visual C++ 6 Specifics:**
+    - Follows the default Ctrl+I shortcut for incremental search.
+  - **Visual Studio 6 Specifics:**
+    - No unique shortcut; incremental search functionality is accessed through the default Ctrl+I.
+  - **Windows Shortcut:**
+    - Alt+E, V, S
 
-VISUAL C++ 6
+- **Usage:**
+  - Press Ctrl+I to initiate incremental search mode.
+  - Begin typing the text to search for; the cursor jumps to the first match.
+  - Observe the binoculars icon in the editor, indicating the direction of the search (up or down).
+  - View search details in the status bar.
+  - Press Ctrl+I again to jump to the next occurrence of the search string.
+  - Utilize additional options within incremental search mode:
+    - **Move to the next match in the file:** Ctrl+I
+    - **Reverse the direction of the search:** Ctrl+Shift+I
+    - **Remove a character from the search string:** Backspace
+    - **Stop the incremental search:** Esc
 
-Ctrl+F
+- **Additional Notes:**
+  - Incremental search allows hands-on keyboard operation without reliance on mouse interaction.
+  - Provides efficient navigation through the document to find specific text occurrences.
 
-VISUAL STUDIO 6
+**05.08 Search the Currently Selected String Without the Find Window**
 
-Ctrl+F
+- **Default Shortcut:**
+  - **Find Next (Ctrl+F3):**
+    - Initiates a search for the next occurrence of the currently selected string.
+  - **Find Previous (Ctrl+Shift+F3):**
+    - Initiates a search for the previous occurrence of the currently selected string.
 
-WINDOWS
+- **Visual Basic 6:**
+  - Follows the default shortcuts for finding next and previous occurrences.
 
-Alt, E, F, F
+- **Visual C# 2005:**
+  - Utilizes the default shortcuts for finding next and previous occurrences.
 
-MENU
+- **Visual C++ 2:**
+  - Utilizes the default shortcuts for finding next and previous occurrences.
 
-Edit | Find and Replace | Quick Find
+- **Visual C++ 6:**
+  - Utilizes the default shortcuts for finding next and previous occurrences.
 
-COMMAND
+- **Visual Studio 6:**
+  - Utilizes the default shortcuts for finding next and previous occurrences.
 
-Edit.Find
+- **Windows:**
+  - No specific shortcut assigned.
 
-VERSIONS
+- **Command:**
+  - **FindNextSelected:**
+    - Command to find the next occurrence of the currently selected string.
+  - **FindPreviousSelected:**
+    - Command to find the previous occurrence of the currently selected string.
 
-2005, 2008, 2010
+- **Supported Versions:**
+  - 2005, 2008, 2010
 
-CODE
+- **Code Reference:**
+  - vstipFind0003
 
-vstipFind0007
+- **Purpose:**
+  - Provides a quick way to find the next or previous occurrence of a selected string without opening the Find dialog box.
 
-There’s more to Quick Find than meets the eye. The first thing to understand is that this is a tool window, so it can be moved and docked like any other tool window. Press Ctrl+F to bring up Quick Find.
+- **Usage:**
+  - Place the cursor within the word you wish to search.
+  - Press Ctrl+F3 to search for the next occurrence.
+  - Press Ctrl+Shift+F3 to search for the previous occurrence.
+  - The status bar displays search parameters for reference.
 
+- **Additional Notes:**
+  - Settings for the search can be modified in the Find dialog box (Ctrl+F).
+  - After initiating the search, use F3 (next) or Shift+F3 (previous) to continue searching as needed.
 
-The Quick Find drop-down menu lets you choose what type of find you want to do:
+**05.09 Find In Files: Find Options**
 
+- **Default Shortcut:**
+  - **Find In Files (Ctrl+Shift+F):**
+    - Initiates the Find In Files dialog box to search for text across multiple files.
 
-Find What
-For this discussion, we want to focus only on Quick Find, but each of these items comes with its own set of options. The Find What area is used to determine what you want to find:
+- **Visual Basic 6:**
+  - Follows the default shortcut for initiating Find In Files.
 
+- **Visual C# 2005:**
+  - Utilizes the default shortcut for initiating Find In Files.
 
-You can type what to look for in the drop-down combo box, or you can choose from the list of previous searches:
+- **Visual C++ 2:**
+  - Utilizes the default shortcut for initiating Find In Files.
 
+- **Visual C++ 6:**
+  - Utilizes the default shortcut for initiating Find In Files.
 
-Don’t worry about the arrow button to the right of the drop-down combo box (not shown here)—we will get to that later.
+- **Visual Studio 6:**
+  - No specific shortcut assigned.
 
-Look In
-Next is the Look In area. It’s used to determine the scope of your search:
+- **Windows:**
+  - Alt, E, F, I
 
+- **Menu:**
+  - Edit | Find and Replace | Find in Files
 
-Most of the options are pretty self-explanatory, but we have a couple of key things to know, as follows:
+- **Command:**
+  - Edit.FindinFiles
 
-The Current Project and Entire Solution actions search files whether they are open or closed.
+- **Supported Versions:**
+  - 2005, 2008, 2010
 
-Current Block is a little misleading because it doesn’t search the current block but the entire method you are currently in.
+- **Code Reference:**
+  - vstipFind0013
 
-Find Options
-The Find Options area is where the fun really happens:
+- **Purpose:**
+  - Facilitates searching for specific information across multiple files within a Visual Studio project.
 
+- **Usage:**
+  - Press Ctrl+Shift+F to open the Find In Files dialog box.
+  - Set various options to customize the search parameters according to your requirements.
+  - Search for text by typing in the Find What box or selecting from previous searches.
+  - Utilize additional options such as Match case, Match whole word, and Use for advanced search operations.
+  - Specify the scope of the search using the Look in drop-down list, which includes options like Current Project, Entire Solution, Choose Search Folders, and Look At These File Types.
+  - Enable Include sub-folders to search within the current directory and all its subdirectories.
 
-Following is a run-down of these options:
+- **Additional Notes:**
+  - Options such as Regular Expressions and Wildcards provide advanced search capabilities.
+  - Refer to vstipFind0005 for customizing search folders and file types in Find In Files.
 
-Match case
-This option makes your search case-specific. Searching for elocal would show “elocal” but not “eLocal” or any other variant.
+**05.10 Find In Files: Result Options**
 
-Match whole word
-By default, your search is a “contains” operation and therefore finds a result anywhere the word exists. For example, searching for “elocal” finds “elocal” and “elocalstuff”, and so on. This option restricts the search to only the word by itself. So, in this example, it finds “elocal” but not “elocalstuff.”
+- **Default Shortcut:**
+  - **Find In Files (Ctrl+Shift+F):**
+    - Opens the Find In Files dialog box for searching text across multiple files within a Visual Studio project.
 
-Search up
-Ordinarily, the search starts from the current cursor location and searches down in the current document. You can use this option to search up from the current cursor location instead.
+- **Visual Basic 6:**
+  - Follows the default shortcut for initiating Find In Files.
 
-Use
-This option is a lot more interesting and requires a bit of explanation. When you select this, you get to choose between Regular Expressions and Wildcards:
+- **Visual C# 2005:**
+  - Utilizes the default shortcut for initiating Find In Files.
 
+- **Visual C++ 2:**
+  - Utilizes the default shortcut for initiating Find In Files.
 
-When you use this option, it automatically enables the Expression Builder button to the right of the Find What combo box:
+- **Visual C++ 6:**
+  - Utilizes the default shortcut for initiating Find In Files.
 
+- **Visual Studio 6:**
+  - No specific shortcut assigned.
 
-Regular expressions
-Whether or not you are familiar with regular expressions, Visual Studio has its own syntax, so be aware of the differences. The following illustration shows what options the Expression Builder button provides you when Regular Expressions is selected.
+- **Windows:**
+  - Alt, E, F, I
 
+- **Menu:**
+  - Edit | Find and Replace | Find in Files
 
-NOTE
-To see the details of the regular expression syntax available in Visual Studio, see the topic “Regular Expressions (Visual Studio)” at http://msdn.microsoft.com/en-us/library/2k3te2cs.aspx.
+- **Command:**
+  - Edit.FindinFiles
 
-Wildcards
-These aren’t as advanced as regular expressions but are more familiar to people. They allow you to use special characters to represent one or more letters. More information about wildcard searches can be found at http://msdn.microsoft.com/en-us/library/afy96z92.aspx. The following illustration shows what options the Expression Builder button provides when Wildcards is selected.
+- **Supported Versions:**
+  - 2005, 2008, 2010
 
+- **Code Reference:**
+  - vstipFind0014
 
-Buttons
-Finally, we have the two buttons at the bottom of the Quick Find tool window:
+- **Purpose:**
+  - Describes the options available for managing and navigating search results obtained through the Find In Files operation.
 
+- **Usage:**
+  - After performing a Find In Files operation, navigate through search results using F8 (next) and Shift+F8 (previous) shortcuts.
+  - Utilize the Find Results windows to view and manage search results, with each search operation replacing the contents of the previous find.
+  - Clear the results in a Find Results window manually by clicking the Clear All button.
+  - Display file names only in search results by enabling the appropriate option.
+  - Additional customization of displayed results is possible, as detailed in vstipFind0002.
 
-Find Next
-Keeps going to the next instance of the search term you are looking for until it reaches your original starting point.
+- **Additional Notes:**
+  - The Find Results windows toolbar provides buttons for navigating to the next and previous items in the results list.
+  - The Keep Modified Files Open After Replace All option does not apply to Find In Files and is always disabled during find operations.
+  
 
-Bookmark All
-Automatically places a bookmark at every location where the search term is found. Use this with caution because it can definitely cause a large number of bookmarks to be created.
+**05.11 Replace In Files: Basic Options**
 
+- **Default Shortcut:**
+  - **Replace In Files (Ctrl+Shift+H):**
+    - Opens the Replace In Files dialog box for replacing text across multiple files within a Visual Studio project.
 
+- **Visual Basic 6:**
+  - Follows the default shortcut for initiating Replace In Files.
 
+- **Visual C# 2005:**
+  - Utilizes the default shortcut for initiating Replace In Files.
 
+- **Visual C++ 2:**
+  - Utilizes the default shortcut for initiating Replace In Files.
 
-05.02 Using Quick Find
-05.03 Using a Simple Quick Replace
-05.04 Hide the Quick Find and Quick Replace Tool Window After the First Match
-16h 24m remaining
-05.03 Using a Simple Quick Replace
-DEFAULT
+- **Visual C++ 6:**
+  - Utilizes the default shortcut for initiating Replace In Files.
 
-Ctrl+H
+- **Visual Studio 6:**
+  - Utilizes the default shortcut for initiating Replace In Files.
 
-VISUAL BASIC 6
+- **Windows:**
+  - Alt, E, F, S
 
-Ctrl+H
+- **Menu:**
+  - Edit | Find and Replace | Replace in Files
 
-VISUAL C# 2005
+- **Command:**
+  - Edit.ReplaceinFiles
 
-Ctrl+H
+- **Supported Versions:**
+  - 2005, 2008, 2010
 
-VISUAL C++ 2
+- **Code Reference:**
+  - vstipFind0015
 
-Ctrl+H
+- **Purpose:**
+  - Describes the options available for replacing text in files using the Replace In Files feature.
 
-VISUAL C++ 6
+- **Find Options:**
+  - Utilizes the same options as Find In Files, allowing users to set parameters for the search operation.
 
-Ctrl+H
+- **Replace With:**
+  - Allows users to specify the text to replace the found text with, supporting both simple literal replacements and more complex expressions.
 
-VISUAL STUDIO 6
+- **Result Options:**
+  - Mirrors the options available in Find In Files, with the addition of the "Keep Modified Files Open After Replace All" option.
+    - This option keeps modified files open after changes are made, enabling users to review changes or make additional manual modifications.
 
-Ctrl+H
+- **Execution Buttons:**
+  - Find Next: Locates the next instance of the search string.
+  - Replace: Replaces the current instance of the search string and moves to the next instance.
+  - Replace All: Replaces all instances of the search string in all files within the specified scope.
+    - Caution: Users should pay attention to the scope of the operation to avoid unintended changes to files.
+  - Skip File: Skips the current file when multiple files are included in the search scope, continuing the search in the next file.
 
-WINDOWS
+**05.12 Go To Definition for Cascading Style Sheets**
 
-Alt, E, F, R
+- **Default Shortcut:**
+  - **Go To Definition (F12):**
+    - Navigates to the definition of the selected item, including CSS class names within a Visual Studio project.
 
-MENU
+- **Visual Basic 6:**
+  - Utilizes F12 for Go To Definition.
+  - Also supports Shift+F2 as an alternative shortcut.
 
-Edit | Find and Replace | Quick Replace
+- **Visual C# 2005:**
+  - Utilizes F12 for Go To Definition.
 
-COMMAND
+- **Visual C++ 2:**
+  - Supports F11 and Alt+F1 for Go To Definition.
 
-Edit.Replace
+- **Visual C++ 6:**
+  - Utilizes F12 for Go To Definition.
 
-VERSIONS
+- **Visual Studio 6:**
+  - Does not have a specific shortcut for Go To Definition.
 
-2005, 2008, 2010
+- **Windows:**
+  - Does not have a specific shortcut for Go To Definition.
 
-CODE
+- **Command:**
+  - Edit.GoToDefinition
 
-vstipFind0008
+- **Supported Versions:**
+  - 2008, 2010
 
-Previously, we looked at Quick Find, and now we will look at Quick Replace. They are almost exactly the same except for the replace operation itself. For that reason, I will not repeat all the options here but refer you back to vstipFind0007 (05.02 Using Quick Find, page 172), for most of the details.
+- **Code Reference:**
+  - vstipFind0021
 
-Press Ctrl+H to bring up Quick Replace:
+- **Purpose:**
+  - Explains how to use the Go To Definition feature to navigate to the definition of CSS class names within a Visual Studio project.
 
+- **Procedure:**
+  1. Place the cursor inside the CSS class name.
+  2. Press F12 or right-click and choose "Go To Definition."
+  3. Visual Studio navigates to the CSS definition and highlights it.
 
-This is a tool window, so it can be docked like any other tool window, pretty much anywhere you want. Notice that the Quick Replace drop-down menu lets you choose what type of replace you want to do:
+- **Usage:**
+  - Allows users to quickly review the definition of CSS classes and make changes as needed.
 
+**05.13 How to Use Navigate To**
 
-For this discussion, let’s focus only on Quick Replace. The Find What area is used to determine what you want to find:
+- **Default Shortcut:**
+  - **Navigate To (Ctrl+,):**
+    - Opens the Navigate To dialog box, allowing users to search for symbols within the project.
 
+- **Visual Basic 6:**
+  - Utilizes Ctrl+, for Navigate To.
 
-The Replace With area functions exactly the same way, but it takes the text that you want to be used to replace the Find What text with:
+- **Visual C# 2005:**
+  - Utilizes Ctrl+, for Navigate To.
 
+- **Visual C++ 2:**
+  - Utilizes Ctrl+, for Navigate To.
 
-The Look In and Find Options function the same way as using Quick Find and are explained in vstipFind0007 (05.02 Using Quick Find, page 172).
+- **Visual C++ 6:**
+  - Utilizes Ctrl+, for Navigate To.
 
-Finally, we have the three buttons at the bottom of the Quick Replace tool window:
+- **Visual Studio 6:**
+  - Utilizes Ctrl+, for Navigate To.
 
+- **Windows:**
+  - Alt+E, . (period) can be used to access Navigate To.
 
-Find Next—Selects the next instance of the search term you are looking for until it reaches your original starting point.
+- **Menu Path:**
+  - Edit | Navigate To
 
-Replace—Replaces the currently selected item from Find What by using the text in Replace With.
+- **Command:**
+  - Edit.NavigateTo
 
-Replace All—Replaces all instances of Find What by using the text in Replace With. This produces a dialog box that shows how many replacements were made:
+- **Supported Versions:**
+  - 2010
 
+- **Code Reference:**
+  - vstipTool0006
 
-Make sure to pay attention to this value because it might be higher (or lower) than expected and might require further investigation. If you make a mistake, you can always undo a Replace All:
+- **Purpose:**
+  - Introduces the Navigate To dialog box, which enables users to search for symbols within the project.
 
+- **Procedure:**
+  1. Press Ctrl+, to open the Navigate To dialog box.
+  2. Enter the symbol you are looking for.
+  3. Review the search results, which include symbols containing the entered letters.
+  4. Optionally, select the Hide External Items option to limit the search to the local project only.
 
+- **Usage:**
+  - Facilitates quick navigation to symbols within the project.
+  - Searches are case-insensitive and support Pascal Case for better matching.
+  - Does not support special logic or characters such as wildcards, Boolean operators, or regular expressions.
 
+**05.14 Understanding Find Symbol**
 
+- **Default Shortcut:**
+  - **Find Symbol (Alt+F12):**
+    - Opens the Find Symbol dialog box, facilitating the search for symbols such as objects, definitions, and references.
 
+- **Visual Basic 6:**
+  - Utilizes Alt+F12 for Find Symbol.
 
-05.03 Using a Simple Quick Replace
-05.04 Hide the Quick Find and Quick Replace Tool Window After the First Match
-05.05 Undo Quick Replace and Replace in Files
-16h 24m remaining
-05.04 Hide the Quick Find and Quick Replace Tool Window After the First Match
-WINDOWS
+- **Visual C# 2005:**
+  - Utilizes Alt+F12 for Find Symbol.
 
-Alt, T, O
+- **Visual C++ 2:**
+  - Utilizes Alt+F12 for Find Symbol.
+  - Additionally, Ctrl+F11 and Ctrl+Alt+F11 can be used.
 
-MENU
+- **Visual C++ 6:**
+  - Utilizes Alt+F12 for Find Symbol.
+  - Also supports Ctrl+Shift+Y for Find Symbol.
 
-Tools | Options | Environment | Find and Replace
+- **Visual Studio 6:**
+  - Utilizes Alt+F12 for Find Symbol.
 
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipFind0010
-
-When using the Quick Find or the Quick Replace tool window, you have an option to make the window disappear after the first match. This can be useful when you want to use your shortcut keys after the first match is found.
-
-Just go to Tools | Options | Environment | Find And Replace, and then select the Hide Find And Replace Window After A Match Is Located For Quick Find Or Quick Replace check box.note
-
-Get Link
-link
-table of contents
-search
-Settings
-
-
-
-
-
-05.04 Hide the Quick Find and Quick Replace Tool Window After the First Match
-05.05 Undo Quick Replace and Replace in Files
-05.06 Using the Find Combo Box Keyboard Shortcuts
-16h 24m remaining
-05.05 Undo Quick Replace and Replace in Files
-DEFAULT
-
-Ctrl+Z; Alt+Backspace
-
-VISUAL BASIC 6
-
-Ctrl+Z; Alt+Backspace
-
-VISUAL C# 2005
-
-Ctrl+Z; Alt+Backspace
-
-VISUAL C++ 2
-
-Ctrl+Z; Alt+Backspace
-
-VISUAL C++ 6
-
-Ctrl+Z; Alt+Backspace
-
-VISUAL STUDIO 6
-
-Ctrl+Z; Alt+Backspace
-
-WINDOWS
-
-Alt,E, U
-
-MENU
-
-Edit | Undo
-
-COMMAND
-
-Edit.Undo
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipFind0020
-
-When using Find And Replace, people often wonder under what conditions you can undo the changes. Because performing a Find Next and Replace operation is very straightforward and easy to undo, let’s focus on how to undo the Replace All operations. Following is a summary of the conditions that allow undo to happen.
-
-Quick Replace (Ctrl+H)
-Let’s assume we’re choosing the Quick Replace option with the Look In option set to Current Project or Entire Solution:
-
-
-A Replace All operation, by default, opens documents and marks them by putting an asterisk in the file name tab so that you can undo the changes:
-
-
-When we undo (Ctrl+Z), it reverses all the changes made. In this case, it undoes all eleven changes:
-
-
-From the toolbar, the following entry appears in the undo stack:
-
-
-Replace in Files (Ctrl+Shift+H)
-If we perform a Replace in Files operation with Look In set to Current Project, Entire Solution, or Visual C++ Include Directories, we see the following dialog box:
-
-
-As shown in the preceding illustration, notice the option called Keep Modified Files Open After Replace All. If we do not select this option and click Replace All, we get the following message:
-
-
-Checking the Replace All Will Open All Files With Changes For Editing makes it possible to undo all the changes made:
-
-
-The entry in the undo stack on the toolbar looks like this:
-
-
-So, as you can see, it is quite easy to undo the changes made by Quick Replace and Replace in Files.
-
-
-
-
-
-05.05 Undo Quick Replace and Replace in Files
-05.06 Using the Find Combo Box Keyboard Shortcuts
-05.07 Using Incremental Search
-16h 24m remaining
-05.06 Using the Find Combo Box Keyboard Shortcuts
-DEFAULT
-
-Ctrl+D (find); Ctrl+/ (run command); Ctrl+G (go to line); Ctrl+Shift+G (go to file); F9 (set breakpoint)
-
-VISUAL BASIC 6
-
-[no shortcut] (find); [no shortcut] (run command); [no shortcut] (go to line); Ctrl+Shift+G (go to file); F9 (set breakpoint)
-
-VISUAL C# 2005
-
-Ctrl+/ (find); [no shortcut] (run command); Ctrl+G (go to line); Ctrl+Shift+G (go to file); F9 (set breakpoint)
-
-VISUAL C++ 2
-
-Ctrl+F (find); ALT+A (find); Ctrl+D (find); Ctrl+/ (run command); Ctrl+G (go to line); Ctrl+Shift+G (go to file); F9 (set breakpoint); Ctrl+Shift+F9 (set breakpoint)
-
-VISUAL C++ 6
-
-Ctrl+D (find); Ctrl+/ (run command); Ctrl+G (go to line); Ctrl+Shift+G (go to file); F9 (set breakpoint)
-
-VISUAL STUDIO 6
-
-Ctrl+Shift+F (find); Ctrl+/ (run command); Ctrl+G (go to line); Ctrl+Shift+G (go to file); F9 (set breakpoint)
-
-COMMAND
-
-Edit.GoToFindCombo; Tools.GoToCommandLine; Edit.GoTo; Edit.OpenFile; Debug.ToggleBreakpoint
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipFind0019
-
-We have looked at the Find Combo box in a variety of places. Recall that this toolbar item is located on the standard toolbar by default:
-
-
-I thought it would be a good idea to consolidate the keyboard shortcuts of this wonderful tool into one place.
-
-Find (Ctrl+D)
-First and foremost, the Find / Command box is used to find strings. Just press Ctrl+D to go to the box and type in your search term:
-
-
-When you press Enter, it searches for your string by using the settings from Quick Find (Ctrl+F) as it searches. Pressing Enter again finds the next instance, and so on.
-
-Run Command (Ctrl+/)
-The Find / Command box is also used to run commands. For more information about commands, see vstipTool0067 (03.19 Understanding Commands: Simple Commands, page 110). Just press Ctrl+/ to go to the box, and type in your command:
-
-
-When you press Enter, it runs the command you typed.
-
-Go To Line (Ctrl+G)
-When in the Find / Command box, you can type any line number:
-
-
-Then press Ctrl+G, and you are taken to the line number that you entered.
-
-Go To File (Ctrl+Shift+G)
-Type in any file name that is in your solution or in the INCLUDE path:
-
-
-Use Ctrl+Shift+G to go to the file. If the file isn’t already open, this command opens the file first.
-
-Set a Breakpoint (F9)
-Enter any function name:
-
-
-Then press F9, and Visual Studio sets a breakpoint on the function:
-
-
-A couple of things to note:
-
-Pressing F9 again does not turn off the breakpoint—that is, it’s not a toggle.
-
-This feature works only with open documents.
-
-
-
-
-
-05.06 Using the Find Combo Box Keyboard Shortcuts
-05.07 Using Incremental Search
-05.08 Search the Currently Selected String Without the Find Window
-16h 24m remaining
-05.07 Using Incremental Search
-DEFAULT
-
-Ctrl+I
-
-VISUAL BASIC 6
-
-Alt+I
-
-VISUAL C# 2005
-
-Ctrl+I
-
-VISUAL C++ 2
-
-Ctrl+I
-
-VISUAL C++ 6
-
-Ctrl+I
-
-VISUAL STUDIO 6
-
-[no shortcut]
-
-WINDOWS
-
-Alt,E, V, S
-
-MENU
-
-Edit | Advanced | Incremental Search
-
-COMMAND
-
-Edit.IncrementalSearch
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipFind0001
-
-Incremental search is a powerful feature to use when you want to keep your cursor in the editor while searching in the current document. It allows you to keep your hands on the keyboard without having to use the mouse for any dialog boxes.
-
-To conduct an incremental search, press Ctrl+I and start typing the text you are searching for. You’ll see the cursor in the editor jump to the first match, highlighting the current search string, and your mouse cursor turns into a pair of binoculars with an arrow pointing in the direction (up or down) you are searching:
-
-
-If you look at the status bar, you can see the details of your incremental search:
-
-
-Press Ctrl+I again to jump to the next occurrence of the search string:
-
-
-The following table lists all the options you can leverage while in this mode:
-
-ACTION
-
-SHORTCUT
-
-Move to the next match in the file
-
-Ctrl+I
-
-Reverse the direction of the search
-
-Ctrl+Shift+I
-
-Remove a character from the search string
-
-Backspace
-
-Stop the incremental search
-
-Esc
-
-
-
-
-
-05.07 Using Incremental Search
-05.08 Search the Currently Selected String Without the Find Window
-05.09 Find In Files: Find Options
-16h 24m remaining
-05.08 Search the Currently Selected String Without the Find Window
-DEFAULT
-
-Ctrl+F3 (next); Ctrl+Shift+F3 (previous)
-
-VISUAL BASIC 6
-
-Ctrl+F3 (next); Ctrl+Shift+F3 (previous)
-
-VISUAL C# 2005
-
-Ctrl+F3 (next); Ctrl+Shift+F3 (previous)
-
-VISUAL C++ 2
-
-Ctrl+F3 (next); Ctrl+Shift+F3 (previous)
-
-VISUAL C++ 6
-
-Ctrl+F3 (next); Ctrl+Shift+F3 (previous)
-
-VISUAL STUDIO 6
-
-Ctrl+F3 (next); Ctrl+Shift+F3 (previous)
-
-WINDOWS
-
-[no shortcut]
-
-COMMAND
-
-Edit.FindNextSelected; Edit.FindPreviousSelected
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipFind0003
-
-Ever just want to find the next (or previous) instance of a word quickly without using the Quick Find dialog box? Well, it’s easy.
-
-Put the cursor in any word you want to look for:
-
-
-Press Ctrl+F3 (next) or Ctrl+Shift+F3 (previous) to start a find:
-
-
-You can also see a message in the status bar showing you the parameters of the search:
-
-
-NOTE
-As you can see, the find has certain settings already in place. These settings can be changed in the Find dialog box (Ctrl+F).
-
-After the Find has started, just press F3 (next) or Shift+F3 (previous) to continue searching as you normally would with a Quick Find.
-
-
-
-
-
-05.08 Search the Currently Selected String Without the Find Window
-05.09 Find In Files: Find Options
-05.10 Find In Files: Result Options
-16h 24m remaining
-05.09 Find In Files: Find Options
-DEFAULT
-
-Ctrl+Shift+F
-
-VISUAL BASIC 6
-
-Ctrl+Shift+F
-
-VISUAL C# 2005
-
-Ctrl+Shift+F
-
-VISUAL C++ 2
-
-Ctrl+Shift+F
-
-VISUAL C++ 6
-
-Ctrl+Shift+F
-
-VISUAL STUDIO 6
-
-[no shortcut]
-
-WINDOWS
-
-Alt,E, F, I
-
-MENU
-
-Edit | Find and Replace | Find in Files
-
-COMMAND
-
-Edit.FindinFiles
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipFind0013
-
-When working in Visual Studio, you often need to search for information in files. Find In Files allows you to quickly locate information you need. Let’s begin by looking at the options you can set to find information in files (Ctrl+Shift+F).
-
-NOTE
-If you have already read vstipFind0007 (05.02 Using Quick Find, page 172), you might want to just skim this one because much of the information is repeated here for those who might not have read the prior tip.
-
-
-Find What
-The Find What combo box lets you type in text to find or choose from previous text that has been searched:
-
-
-This area is very closely bound to all but one of the options under Find Options:
-
-
-Following is an overview of these options:
-
-Match case
-This option makes your search case-specific. Searching for elocal would show “elocal” but not “eLocal” or any other variant.
-
-Match whole word
-By default, the search is a “contains” operation and finds the word anywhere it exists. For example, searching for “elocal” finds “elocal” and “elocalstuff”, and so on.
-
-Use
-This is a lot more interesting and requires a bit of explanation. When you select this, you get to choose between Regular Expressions and Wildcards:
-
-
-When you use this option, it automatically enables the Expression Builder button to the right of the Find What combo box:
-
-
-Regular expressions
-Whether or not you are familiar with regular expressions, Visual Studio has its own syntax, so be aware of the differences. The following illustration shows the options provided by the Expression Builder button when you have selected Regular Expressions:
-
-
-NOTE
-To see the details of the regular expression syntax available in Visual Studio, see the topic “Regular Expressions (Visual Studio)” at http://msdn.microsoft.com/en-us/library/2k3te2cs.aspx.
-
-Wildcards
-This option isn’t as advanced as regular expressions but is more familiar to most people. It allows you to use special characters to represent one or more letters. For more information about wildcard searches, see “Wildcards (Visual Studio) at http://msdn.microsoft.com/en-us/library/afy96z92.aspx. The following illustration shows the options provided by the Expression Builder button when Wildcards is selected:
-
-
-Look in
-The Look in drop-down list lets you specify what areas you want to look in:
-
-
-Most of the options are pretty self-explanatory. The Current Project and Entire Solution commands search files whether they are open or closed.
-
-The Choose Search Folders and Look At These File Types options are discussed in vstipFind0005 (AX.47 Customize the Files to Search with Find In Files, in Appendix B [http://go.microsoft.com/FWLink/?Linkid=223758]):
-
-
-
-Include sub-folders
-This option searches the current directory and all subdirectories and shows up only if you use the Visual C++ Include Directories or Choose Search Folders options:
-
-
-
-
-
-
-05.09 Find In Files: Find Options
-05.10 Find In Files: Result Options
-05.11 Replace In Files: Basic Options
-16h 24m remaining
-05.10 Find In Files: Result Options
-DEFAULT
-
-Ctrl+Shift+F (find); F8 (next); Shift+F8 (previous);
-
-VISUAL BASIC 6
-
-Ctrl+Shift+F (find);[no shortcut] (next); [no shortcut] (previous);
-
-VISUAL C# 2005
-
-Ctrl+Shift+F (find); F8 (next); Shift+F8 (previous);
-
-VISUAL C++ 2
-
-Ctrl+Shift+F (find); F4 (next); Shift+F4 (previous);
-
-VISUAL C++ 6
-
-Ctrl+Shift+F (find); F8 (next); F4 (next); Shift+F8 (previous); Shift+F4 (previous);
-
-VISUAL STUDIO 6
-
-[no shortcut] (find); F8 (next); F12 (next); Shift+F8 (previous); Shift+F12 (previous);
-
-WINDOWS
-
-Alt,E, F, I (find)
-
-MENU
-
-Edit | Find and Replace | Find in Files
-
-COMMAND
-
-Edit.FindinFiles; Edit.GoToNextLocation; Edit.GoToPrevLocation; Edit.ClearFindResults1; Edit.ClearFindResults2
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipFind0014
-
-When working with Find In Files (Ctrl+Shift+F), you can choose several result options:
-
-
-Find Results [1,2] Window
-The Find Results windows allow you to view and navigate the results of a find operation. Each time you use Find, the results replace the contents of the previous find. This is why two windows are available—so that you avoid overwriting a find result you might want to keep.
-
-Navigation
-You can use F8 and Shift+F8 to go to the next and previous items in the results list. This operation also shows the line of code where the item was found, which includes opening closed files if needed:
-
-The Find Results windows have toolbar buttons that allow you to go to the next and previous items as well:
-
-
-Clear All
-You can manually clear the results in a Find Results window by clicking Clear All:
-
-
-Display File Names Only
-The operation shows only the files names in your results and not the full path and additional information. This means the result set is much smaller.
-
-Before:
-
-
-After:
-
-
-You can do much more with the displayed results than this. See vstipFind0002 (05.17 Customize Results in Find In Files Searches, page 206) for more information.
-
-Keep Modified Files Open After Replace All
-This option doesn’t apply to Find In Files and is always disabled when doing a find operation. You can see this option when using the Replace In Files option.
-
-
-
-
-
-05.10 Find In Files: Result Options
-05.11 Replace In Files: Basic Options
-05.12 Go To Definition for Cascading Style Sheets
-16h 24m remaining
-05.11 Replace In Files: Basic Options
-DEFAULT
-
-Ctrl+Shift+H
-
-VISUAL BASIC 6
-
-Ctrl+Shift+H
-
-VISUAL C# 2005
-
-Ctrl+Shift+H
-
-VISUAL C++ 2
-
-Ctrl+Shift+H
-
-VISUAL C++ 6
-
-Ctrl+Shift+H
-
-VISUAL STUDIO 6
-
-Ctrl+Shift+H
-
-WINDOWS
-
-Alt,E, F, S
-
-MENU
-
-Edit | Find and Replace | Replace in Files
-
-COMMAND
-
-Edit.ReplaceinFiles
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipFind0015
-
-Did you know that you can replace text in files, whether or not they are open, by choosing Replace In Files (Ctrl+Shift+H)? Let’s take a look at what can be done.
-
-Find Options
-
-Fortunately, the majority of find options are the same for Replace In Files as they are for Find In Files (see vstipFind0013, 05.09 Find In Files: Find Options, on page 186), so you can leverage those skills again here.
-
-Replace With
-
-This area is the most interesting piece of the Replace In Files dialog box. It can be as simple as a literal string (replacing “static” with “Franc”, for example) or very, very complex. In simple situations, you just want to use the literal text as a replacement to the Find What text.
-
-Result Options
-Again, these options are exactly like the Find In Files options (vstipTool0014, “Find In Files: Result Options,” page 158) with the exception of the Keep Modified Files Open After Replace All option:
-
-
-This option makes it possible to keep modified files open after they are changed so that you can review the change or make additional manual changes. This is particularly useful when you are modifying closed files and want to look inside files that were modified.
-
-Execution
-After all the options have been set, we can execute find and replace operations by using the following four buttons:
-
-
-Find Next
-Used to find the next instance of the Find What search string.
-
-Replace
-Used to replace the current instance of the Find What string with the Replace With string and then find the next instance.
-
-Replace All
-Used to replace all instances of the Find What string with the Replace With string, in all files within the Look In scope.
-
-WARNING
-The Replace All option can get you into big trouble if you don’t pay attention to the scope of Look In.
-
-Skip File
-Available when the Look In list includes multiple files. Choose this button if you do not want to search or modify the current file. The search continues in the next file on the Look In list.
-
-
-
-
-
-05.11 Replace In Files: Basic Options
-05.12 Go To Definition for Cascading Style Sheets
-05.13 How to Use Navigate To
-16h 24m remaining
-05.12 Go To Definition for Cascading Style Sheets
-DEFAULT
-
-F12
-
-VISUAL BASIC 6
-
-F12; Shift+F2
-
-VISUAL C# 2005
-
-F12
-
-VISUAL C++ 2
-
-F11; Alt+F1
-
-VISUAL C++ 6
-
-F12
-
-VISUAL STUDIO 6
-
-[no shortcut]
-
-WINDOWS
-
-[no shortcut]
-
-COMMAND
-
-Edit.GoToDefinition
-
-VERSIONS
-
-2008, 2010
-
-CODE
-
-vstipFind0021
-
-For those who are familiar with using Go To Definition in your code, you might not be aware that you can use the same technique to go to your Cascading Style Sheet (CSS) definition class for attributes. Just put your cursor inside the class name:
-
-
-Then press F12 (or right-click and choose Go To Definition). It instantly takes you to the CSS definition and highlights it:
-
-
-Now you can review the definition and make changes as you see fit.
-
-
-
-
-
-05.12 Go To Definition for Cascading Style Sheets
-05.13 How to Use Navigate To
-05.14 Understanding Find Symbol
-16h 24m remaining
-05.13 How to Use Navigate To
-DEFAULT
-
-Ctrl+, [comma]
-
-VISUAL BASIC 6
-
-Ctrl+, [comma]
-
-VISUAL C# 2005
-
-Ctrl+, [comma]
-
-VISUAL C++ 2
-
-Ctrl+, [comma]
-
-VISUAL C++ 6
-
-Ctrl+, [comma]
-
-VISUAL STUDIO 6
-
-Ctrl+, [comma]
-
-WINDOWS
-
-Alt,E, .[period]
-
-MENU
-
-Edit | Navigate To
-
-COMMAND
-
-Edit.NavigateTo
-
-VERSIONS
-
-2010
-
-CODE
-
-vstipTool0006
-
-The Navigate To dialog box is very useful for finding symbols. The search is an “includes” operation, so it shows you symbols that contain the letters you type. Just put in what you are looking for:
-
-
-Notice that the search is not case-specific. However, you might notice a surprise in this dialog box. Watch what happens when you put in ACM:
-
-
-It pays attention to Pascal Case. There is also summary information at the bottom of this dialog box:
-
-
-You’re probably wondering about the Hide External Items option as well. When selected, only the local project is examined for symbols, instead of your project plus every library you reference.
-
-Also, notice that the Navigate To syntax does not support special logic or special characters such as the following:
-
-Wildcard matching
-
-Boolean logic operators
-
-Regular expressions
-
-
-
-
-
-05.13 How to Use Navigate To
-05.14 Understanding Find Symbol
-05.15 Find Symbol Results Shortcuts
-16h 24m remaining
-05.14 Understanding Find Symbol
-DEFAULT
-
-Alt+F12
-
-VISUAL BASIC 6
-
-Alt+F12
-
-VISUAL C# 2005
-
-Alt+F12
-
-VISUAL C++ 2
-
-Alt+F12; Ctrl+F11; Ctrl+Alt+F11
-
-VISUAL C++ 6
-
-Alt+F12; Ctrl+Shift+Y
-
-VISUAL STUDIO 6
-
-Alt+F12
-
-WINDOWS
-
-Alt,E, F, Y
-
-MENU
-
-Edit | Find and Replace | Find Symbol
-
-COMMAND
-
-Edit.FindSymbol
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipFind0011
-
-You can quickly search for symbols (objects, definitions, and references) by using the Find Symbol dialog box (Alt+F12):
-
-
-Find What
-This is pretty straightforward; you just type in the search string you are looking for.
-
-NOTE
-You can also get to Find Symbol by using any shortcut to get to the Find and Replace dialog box and selecting Find Symbol from the drop-down list in the upper-right corner.
-
-Look In
-This indicates where you want to look:
-
-
-As you can see, the Look In dialog box has a number of search options.
-
-All Components
-Includes the current solution and its referenced components, all of the .NET Framework, and any components that you have added.
-
-Framework X / Silverlight X
-Searches specific versions of the Framework for a symbol.
-
-My Solution
-Searches the current open solution.
-
-Custom Component Set (Object Browser)
-Searches the predefined custom component set in the Object Browser. See vstipTool0078 (07.40 The Object Browser: Setting the Browsing Scope, page 358) for more information.
-
-Custom Component Set (Find Symbol)
-Searches the custom component set defined in this dialog box. You edit the list of components by clicking the ellipsis in the dialog box:
-
-
-The Edit Custom Component Set dialog box allows you to pick components from a variety of areas to have a specialized search experience when looking for symbols. It allows for a very refined search capability:
-
-
-Look In References
-Displays references in the projects within the current browsing scope.
-
-Find Options
-Match
-Sets criteria for the search string when finding matches.
-
-Whole Word
-Finds the complete word only, not partial matches.
-
-Prefix
-Finds results where the search string is at the beginning of the result.
-
-Substring
-Finds results where the search string is anywhere in the result.
-
-Match Case
-Finds only results that exactly match the case of the search string.
-
-Find All
-Initiates the search based on the criteria that has been set.
-
-Search Results
-When you run a search, the results look something like this:
-
-
-The icons to the left of each entry indicate what type of symbol you are looking at in the results. For a complete list of icons and their meanings, see vstipTool0076 (AX.120 Class View and Object Browser Icons, in Appendix B [http://go.microsoft.com/FWLink/?Linkid=223758]) for more information.
-
-Additionally, you can use F8 or Shift+F8 to navigate forward or backward through the results while automatically showing the location of the result as you proceed.
-
-
-
-
-
-05.14 Understanding Find Symbol
-05.15 Find Symbol Results Shortcuts
-05.16 Replace in Files: Tagged Expressions
-16h 24m remaining
-05.15 Find Symbol Results Shortcuts
-DEFAULT
-
-F12 (go to definition); Ctrl+F12 (go to declaration); Shift+F12 (find all references); Ctrl+C (copy); Ctrl+Insert (copy);
-
-VISUAL BASIC 6
-
-F12 (go to definition); Shift+F2 (go to definition); Ctrl+F12 (go to declaration); Alt+F2 (find all references); Ctrl+C (copy); Ctrl+Insert (copy);
-
-VISUAL C# 2005
-
-F12 (go to definition); Ctrl+F12 (go to declaration); Shift+F12 (find all references); Ctrl+K, Ctrl+R (find all references); Ctrl+K, R (find all references); Ctrl+C (copy); Ctrl+Insert (copy);
-
-VISUAL C++ 2
-
-F11 (go to definition); Alt+F1 (go to definition); [no shortcut] (find all references); Ctrl+C (copy); Ctrl+Insert (copy);
-
-VISUAL C++ 6
-
-F12 (go to definition); Ctrl+F12 (go to declaration); Ctrl+Alt+F12 (go to declaration); [no shortcut] (find all references); Ctrl+C (copy); Ctrl+Insert (copy);
-
-VISUAL STUDIO 6
-
-[no shortcut] (go to definition); Ctrl+F12 (go to declaration); [no shortcut] (find all references); Ctrl+C (copy); Ctrl+Insert (copy);
-
-WINDOWS
-
-Alt,E, C (copy)
-
-MENU
-
-Edit | Copy
-
-COMMAND
-
-Edit.GoToDefinition; Edit.GoToDeclaration; Edit.FindAllReferences;View.BrowseDefinition;Edit.Copy;Edit.ClearAll
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipFind0012
-
-To locate any symbol, you can quickly leverage a series of commands to help you. The nice thing about these commands is that many of them work both in the Find Symbol Results window and in the code editor.
-
-Go To Definition (F12)
-This command takes you to the definition of the symbol in your code, if one is available.
-
-
-
-Go To Declaration (Ctrl+F12)
-NOTE
-The information in this section applies to C++ only.
-
-This command takes you to the declaration of the symbol in your code, if one is available.
-
-Go To Reference (Shift+F12)
-This command works for any symbol:
-
-
-This command finds all references to that symbol:
-
-
-If you are using the Find Symbol Results window, you can make this much easier by simply expanding a node in the window. It automatically shows all references:
-
-
-If no references are found, it tells you that also:
-
-
-Browse Definition
-For any symbol in your results, simply right-click and choose Browse Definition:
-
-
-Clicking Browse Definition takes you to the primary node (typically top level) for the symbol in the Object Browser, which can be particularly useful for deeper examination:
-
-
-Copy (Ctrl+C)
-Allows you to copy the fully qualified name for the selected symbol to the clipboard. You can then paste the code as text into the code editor.
-
-Clear All
-Clears the Find Symbol Results window.
-
-
-
-
-
-05.14 Understanding Find Symbol
-05.15 Find Symbol Results Shortcuts
-05.16 Replace in Files: Tagged Expressions
-16h 24m remaining
-05.15 Find Symbol Results Shortcuts
-DEFAULT
-
-F12 (go to definition); Ctrl+F12 (go to declaration); Shift+F12 (find all references); Ctrl+C (copy); Ctrl+Insert (copy);
-
-VISUAL BASIC 6
-
-F12 (go to definition); Shift+F2 (go to definition); Ctrl+F12 (go to declaration); Alt+F2 (find all references); Ctrl+C (copy); Ctrl+Insert (copy);
-
-VISUAL C# 2005
-
-F12 (go to definition); Ctrl+F12 (go to declaration); Shift+F12 (find all references); Ctrl+K, Ctrl+R (find all references); Ctrl+K, R (find all references); Ctrl+C (copy); Ctrl+Insert (copy);
-
-VISUAL C++ 2
-
-F11 (go to definition); Alt+F1 (go to definition); [no shortcut] (find all references); Ctrl+C (copy); Ctrl+Insert (copy);
-
-VISUAL C++ 6
-
-F12 (go to definition); Ctrl+F12 (go to declaration); Ctrl+Alt+F12 (go to declaration); [no shortcut] (find all references); Ctrl+C (copy); Ctrl+Insert (copy);
-
-VISUAL STUDIO 6
-
-[no shortcut] (go to definition); Ctrl+F12 (go to declaration); [no shortcut] (find all references); Ctrl+C (copy); Ctrl+Insert (copy);
-
-WINDOWS
-
-Alt,E, C (copy)
-
-MENU
-
-Edit | Copy
-
-COMMAND
-
-Edit.GoToDefinition; Edit.GoToDeclaration; Edit.FindAllReferences;View.BrowseDefinition;Edit.Copy;Edit.ClearAll
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipFind0012
-
-To locate any symbol, you can quickly leverage a series of commands to help you. The nice thing about these commands is that many of them work both in the Find Symbol Results window and in the code editor.
-
-Go To Definition (F12)
-This command takes you to the definition of the symbol in your code, if one is available.
-
-
-
-Go To Declaration (Ctrl+F12)
-NOTE
-The information in this section applies to C++ only.
-
-This command takes you to the declaration of the symbol in your code, if one is available.
-
-Go To Reference (Shift+F12)
-This command works for any symbol:
-
-
-This command finds all references to that symbol:
-
-
-If you are using the Find Symbol Results window, you can make this much easier by simply expanding a node in the window. It automatically shows all references:
-
-
-If no references are found, it tells you that also:
-
-
-Browse Definition
-For any symbol in your results, simply right-click and choose Browse Definition:
-
-
-Clicking Browse Definition takes you to the primary node (typically top level) for the symbol in the Object Browser, which can be particularly useful for deeper examination:
-
-
-Copy (Ctrl+C)
-Allows you to copy the fully qualified name for the selected symbol to the clipboard. You can then paste the code as text into the code editor.
-
-Clear All
-Clears the Find Symbol Results window.
-
-
-
-
-
-05.15 Find Symbol Results Shortcuts
-05.16 Replace in Files: Tagged Expressions
-05.17 Customize Results in Find In Files Searches
-16h 24m remaining
-05.16 Replace in Files: Tagged Expressions
-DEFAULT
-
-Ctrl+Shift+H
-
-VISUAL BASIC 6
-
-Ctrl+Shift+H
-
-VISUAL C# 2005
-
-Ctrl+Shift+H
-
-VISUAL C++ 2
-
-Ctrl+Shift+H
-
-VISUAL C++ 6
-
-Ctrl+Shift+H
-
-VISUAL STUDIO 6
-
-Ctrl+Shift+H
-
-WINDOWS
-
-Alt,E, F, S
-
-MENU
-
-Edit | Find and Replace | Replace in Files
-
-COMMAND
-
-Edit.ReplaceinFiles
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipFind0016
-
-As mentioned in vstipFind0015 (05.11 Replace In Files: Basic Options, page 192), the Replace With area is the most interesting piece of the Replace In Files dialog box. It can be as simple as a literal string replacement:
-
-
-Under normal situations, this is just the literal text you want to use as a replacement for the Find What text. However, suppose you choose to use regular expressions:
-
-
-This enables the Expression Builder:
-
-
-These options are not like the builder options you get in the Find What area:
-
-
-In addition to being able to use any of the regular expression characters, you can refer to the original text and any tagged expressions.
-
-Example
-The best way to show how tagged expressions work is with an example. Let’s assume you have the following text:
-
-
-And you use the following options:
-
-
-Notice the curly brackets around “jones”? That denotes a tagged expression. Every time you use the brackets, it creates a tagged expression that is numbered (beginning with 1). So, in this example, we are looking for “bubba{jones}” and replacing it with tagged expression 1 (which is just “jones”). Also, notice the notation used to refer to the tagged expression: \n, where n is the tagged expression we want.
-
-When I do my replacements, this is the result:
-
-
-We can take this further. Now we want to turn “bubbajones” into “jonesbubba,” so we can use the following settings:
-
-
-So now we are looking for “{bubba}{jones},” which creates tagged expression 1 (“bubba”) and tagged expression 2 (“jones”). At this point, it’s simply a matter of replacing with the expressions switched around (“\2\1”), and we get the following:
-
-
-Of course, this can get much more complex when using regular expressions, so you definitely need to spend some time learning how to fully leverage these features.note
-
-Get Link
-link
-table of contents
-search
-Settings
-
-
-
-
-
-05.16 Replace in Files: Tagged Expressions
-05.17 Customize Results in Find In Files Searches
-6. Writing Code
-16h 24m remaining
-05.17 Customize Results in Find In Files Searches
-DEFAULT
-
-Ctrl+Shift+F
-
-VISUAL BASIC 6
-
-Ctrl+Shift+F
-
-VISUAL C# 2005
-
-Ctrl+Shift+F
-
-VISUAL C++ 2
-
-Ctrl+Shift+F
-
-VISUAL C++ 6
-
-Ctrl+Shift+F
-
-VISUAL STUDIO 6
-
-[no shortcut]
-
-WINDOWS
-
-Alt,E, F, I
-
-MENU
-
-Edit | Find and Replace | Find in Files
-
-COMMAND
-
-Edit.FindinFiles
-
-VERSIONS
-
-2005, 2008, 2010
-
-CODE
-
-vstipFind0002
-
-You can customize your Find In Files results to just about any format you can imagine. For example, let’s say you don’t want to view the entire file path shown in the Find Results tool window:
-
-
-Instead, you want this:
-
-
-You can easily make this change. Just follow these instructions:
-
-WARNING
-This involves modifying the registry, so use this tip at your own risk.
-
-Open RegEdit.exe.
-
-Go to HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\<version>\Find.
-
-Add a new string called Find Result Format, with a value of $f$e($l,$c):$t\r\n.
-
-
-In Visual Studio, run a Find In Files search.
-
-NOTE
-You do not need to restart Visual Studio to see the changes made in the registry, which is great for testing different string combinations.
-
-Variables
-For your reference, the following are valid values you can use when creating your own custom values.
-
-Files
-$p path
-
-$f filename
-
-$v drive/unc share
-
-$d directory
-
-$n name
-
-$e .extension
-
-Location
-$l line
-
-$c col
-
-$x end col if on first line, else end of first line
-
-$L span end line
-
-$C span end col
-
-Text
-$0 matched text
-
-$t text of first line
-
-$s summary of hit
-
-$T text of spanned lines
-
-Char
-\n newline
-
-\s space
-
-\t tab
-
-\\ backslash
-
-\$ $
-
-
-
-
-
-05.17 Customize Results in Find In Files Searches
+- **Windows:**
+  - Alt+E, F, Y can be used to access Find Symbol.
+
+- **Menu Path:**
+  - Edit | Find and Replace | Find Symbol
+
+- **Command:**
+  - Edit.FindSymbol
+
+- **Supported Versions:**
+  - 2005, 2008, 2010
+
+- **Code Reference:**
+  - vstipFind0011
+
+- **Purpose:**
+  - Introduces the Find Symbol dialog box, enabling users to search for symbols like objects, definitions, and references.
+
+- **Procedure:**
+  1. Press Alt+F12 to open the Find Symbol dialog box.
+  2. Enter the search string for the symbol you are looking for.
+  3. Set the search criteria and options such as Match, Whole Word, Prefix, Substring, and Match Case.
+  4. Choose the scope of the search under Look In, including All Components, Framework X / Silverlight X, My Solution, and Custom Component Sets.
+  5. Initiate the search by clicking Find All.
+  6. Review the search results, which include icons indicating the type of symbol found.
+  7. Navigate through the results using F8 for forward and Shift+F8 for backward navigation.
+
+- **Usage:**
+  - Facilitates quick search for symbols like objects, definitions, and references within the project.
+  - Offers various search options and criteria for refining the search results.
+  - Provides navigational shortcuts for ease of browsing through the search results.
+
+**05.15 Find Symbol Results Shortcuts**
+
+- **Default:**
+  - **Go to Definition (F12):**
+    - Takes you to the definition of the symbol in your code.
+  - **Go to Declaration (Ctrl+F12):**
+    - *Note: Applicable to C++ only.* Takes you to the declaration of the symbol in your code.
+  - **Go to Reference (Shift+F12):**
+    - Finds all references to the symbol.
+  - **Copy (Ctrl+C):**
+    - Copies the fully qualified name for the selected symbol to the clipboard.
+  - **Copy (Ctrl+Insert):**
+    - Copies the fully qualified name for the selected symbol to the clipboard.
+- **Visual Basic 6:**
+  - Utilizes F12 for Go to Definition.
+  - Utilizes Shift+F2 for Go to Definition.
+  - Utilizes Ctrl+F12 for Go to Declaration.
+  - Utilizes Alt+F2 for Find All References.
+- **Visual C# 2005:**
+  - Utilizes F12 for Go to Definition.
+  - Utilizes Ctrl+F12 for Go to Declaration.
+  - Utilizes Shift+F12 for Find All References.
+  - Utilizes Ctrl+K, Ctrl+R for Find All References.
+  - Utilizes Ctrl+K, R for Find All References.
+- **Visual C++ 2:**
+  - Utilizes F11 for Go to Definition.
+  - Utilizes Alt+F1 for Go to Definition.
+- **Visual C++ 6:**
+  - Utilizes F12 for Go to Definition.
+  - Utilizes Ctrl+F12 for Go to Declaration.
+  - Utilizes Ctrl+Alt+F12 for Go to Declaration.
+- **Visual Studio 6:**
+  - Does not have a shortcut for Go to Definition.
+  - Utilizes Ctrl+F12 for Go to Declaration.
+- **Windows:**
+  - Utilizes Alt+E, C for Copy.
+- **Menu Path:**
+  - Edit | Copy
+- **Command:**
+  - Edit.GoToDefinition; Edit.GoToDeclaration; Edit.FindAllReferences; View.BrowseDefinition; Edit.Copy; Edit.ClearAll
+- **Supported Versions:**
+  - 2005, 2008, 2010
+- **Code Reference:**
+  - vstipFind0012
+- **Purpose:**
+  - Provides a list of keyboard shortcuts and commands for navigating and managing symbol search results.
+- **Procedure:**
+  1. Use the respective shortcut keys to perform various actions on the symbol search results:
+     - F12: Go to Definition
+     - Ctrl+F12: Go to Declaration (C++ only)
+     - Shift+F12: Find All References
+     - Ctrl+C or Ctrl+Insert: Copy fully qualified name to clipboard
+  2. Additionally, the Browse Definition option allows you to explore symbols in the Object Browser.
+  3. Clear All option clears the Find Symbol Results window.
+
+**05.15 Find Symbol Results Shortcuts**
+
+- **Default:**
+  - **Go to Definition (F12):**
+    - Takes you to the definition of the symbol in your code.
+  - **Go to Declaration (Ctrl+F12):**
+    - *Note: Applicable to C++ only.* Takes you to the declaration of the symbol in your code.
+  - **Go to Reference (Shift+F12):**
+    - Finds all references to the symbol.
+  - **Copy (Ctrl+C):**
+    - Copies the fully qualified name for the selected symbol to the clipboard.
+  - **Copy (Ctrl+Insert):**
+    - Copies the fully qualified name for the selected symbol to the clipboard.
+- **Visual Basic 6:**
+  - Utilizes F12 for Go to Definition.
+  - Utilizes Shift+F2 for Go to Definition.
+  - Utilizes Ctrl+F12 for Go to Declaration.
+  - Utilizes Alt+F2 for Find All References.
+- **Visual C# 2005:**
+  - Utilizes F12 for Go to Definition.
+  - Utilizes Ctrl+F12 for Go to Declaration.
+  - Utilizes Shift+F12 for Find All References.
+  - Utilizes Ctrl+K, Ctrl+R for Find All References.
+  - Utilizes Ctrl+K, R for Find All References.
+- **Visual C++ 2:**
+  - Utilizes F11 for Go to Definition.
+  - Utilizes Alt+F1 for Go to Definition.
+- **Visual C++ 6:**
+  - Utilizes F12 for Go to Definition.
+  - Utilizes Ctrl+F12 for Go to Declaration.
+  - Utilizes Ctrl+Alt+F12 for Go to Declaration.
+- **Visual Studio 6:**
+  - Does not have a shortcut for Go to Definition.
+  - Utilizes Ctrl+F12 for Go to Declaration.
+- **Windows:**
+  - Utilizes Alt+E, C for Copy.
+- **Menu Path:**
+  - Edit | Copy
+- **Command:**
+  - Edit.GoToDefinition; Edit.GoToDeclaration; Edit.FindAllReferences; View.BrowseDefinition; Edit.Copy; Edit.ClearAll
+- **Supported Versions:**
+  - 2005, 2008, 2010
+- **Code Reference:**
+  - vstipFind0012
+- **Purpose:**
+  - Provides a list of keyboard shortcuts and commands for navigating and managing symbol search results.
+- **Procedure:**
+  1. Use the respective shortcut keys to perform various actions on the symbol search results:
+     - F12: Go to Definition
+     - Ctrl+F12: Go to Declaration (C++ only)
+     - Shift+F12: Find All References
+     - Ctrl+C or Ctrl+Insert: Copy fully qualified name to clipboard
+  2. Additionally, the Browse Definition option allows you to explore symbols in the Object Browser.
+  3. Clear All option clears the Find Symbol Results window.
+
+**05.16 Replace in Files: Tagged Expressions**
+
+- **Default Shortcut:**
+  - Ctrl+Shift+H
+
+- **Visual Basic 6:**
+  - Utilizes Ctrl+Shift+H.
+
+- **Visual C# 2005:**
+  - Utilizes Ctrl+Shift+H.
+
+- **Visual C++ 2:**
+  - Utilizes Ctrl+Shift+H.
+
+- **Visual C++ 6:**
+  - Utilizes Ctrl+Shift+H.
+
+- **Visual Studio 6:**
+  - Utilizes Ctrl+Shift+H.
+
+- **Windows Shortcut:**
+  - Alt+E, F, S
+
+- **Menu Path:**
+  - Edit | Find and Replace | Replace in Files
+
+- **Command:**
+  - Edit.ReplaceinFiles
+
+- **Supported Versions:**
+  - 2005, 2008, 2010
+
+- **Code Reference:**
+  - vstipFind0016
+
+- **Purpose:**
+  - Demonstrates the usage of tagged expressions in the Replace in Files feature.
+
+- **Procedure:**
+  1. Access the Replace in Files dialog.
+  2. In the Replace With field, enter the replacement text.
+  3. Use curly brackets to denote tagged expressions (e.g., `{expression}`).
+  4. Tagged expressions are numbered sequentially starting from 1.
+  5. Use the notation `\n` to refer to the nth tagged expression.
+  6. Example:
+     - Original text: `bubbajones`
+     - Replace With: `{bubba}{jones}`
+     - Result: `jones`
+
+- **Additional Information:**
+  - Tagged expressions can be used for complex replacements, especially when combined with regular expressions.
+
+**05.17 Customize Results in Find In Files Searches**
+
+- **Default Shortcut:**
+  - Ctrl+Shift+F
+
+- **Visual Basic 6:**
+  - Utilizes Ctrl+Shift+F.
+
+- **Visual C# 2005:**
+  - Utilizes Ctrl+Shift+F.
+
+- **Visual C++ 2:**
+  - Utilizes Ctrl+Shift+F.
+
+- **Visual C++ 6:**
+  - Utilizes Ctrl+Shift+F.
+
+- **Visual Studio 6:**
+  - Does not have a specific shortcut.
+
+- **Windows Shortcut:**
+  - Alt+E, F, I
+
+- **Menu Path:**
+  - Edit | Find and Replace | Find in Files
+
+- **Command:**
+  - Edit.FindinFiles
+
+- **Supported Versions:**
+  - 2005, 2008, 2010
+
+- **Code Reference:**
+  - vstipFind0002
+
+- **Purpose:**
+  - Provides instructions for customizing Find In Files results format.
+
+- **Procedure:**
+  1. Open RegEdit.exe.
+  2. Navigate to HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\<version>\Find.
+  3. Add a new string named Find Result Format with the desired format value.
+  4. Run a Find In Files search in Visual Studio to see the changes.
+  
+- **Variables:**
+  - Files:
+    - $p: path
+    - $f: filename
+    - $v: drive/UNC share
+    - $d: directory
+    - $n: name
+    - $e: extension
+  - Location:
+    - $l: line
+    - $c: column
+    - $x: end column if on first line, else end of first line
+    - $L: span end line
+    - $C: span end column
+  - Text:
+    - $0: matched text
+    - $t: text of first line
+    - $s: summary of hit
+    - $T: text of spanned lines
+  - Char:
+    - \n: newline
+    - \s: space
+    - \t: tab
+    - \\: backslash
+    - \$: dollar sign
