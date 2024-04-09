@@ -1,21 +1,3 @@
-
-4. Working with Documents
-04.01 Insert Documents to the Right of Existing Tabs
-16h 35m remaining
-Chapter 4. Working with Documents
-“He turned off the word processor, realizing just a second after he’d flicked the switch that he’d forgotten to save the document. Well, that was all right. Maybe it had even been the critic in his subconscious, telling him the document wasn’t worth saving.”
-
-— Stephen King “Secret Window, Secret Garden” in “Four Past Midnight”
-Documents serve as the cornerstone of your activities in Visual Studio. Writing code, debugging code, creating interfaces, or just about anything else you do is done with documents. Yet we still seem to take our documents for granted. This chapter focuses on working with documents in the File Tab Channel as well as ways to navigate better. Several advanced topics, such as creating custom file extensions and working with previous versions are covered as well.
-
-
-
-
-
-4. Working with Documents
-04.01 Insert Documents to the Right of Existing Tabs
-04.02 Recent Files
-16h 35m remaining
 04.01 Insert Documents to the Right of Existing Tabs
 WINDOWS
 
@@ -42,15 +24,6 @@ Just go to Tools | Options | Environment | Documents, and select the Insert Docu
 
 You should see new tabs show up to the right of existing tabs.
 
-
-
-
-
-
-04.01 Insert Documents to the Right of Existing Tabs
-04.02 Recent Files
-04.03 Working with Documents on Multiple Monitors
-16h 35m remaining
 04.02 Recent Files
 WINDOWS
 
